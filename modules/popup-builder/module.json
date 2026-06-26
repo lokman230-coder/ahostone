@@ -1,0 +1,12 @@
+{
+  "slug": "popup-builder",
+  "name": "Popup Builder",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Exit intent, subscribe popup",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Popup Oluşturucu",
+    "route": "admin/popup-builder"
+  }
+}

@@ -1,0 +1,9 @@
+<section class="ao-site-content ao-service-landing-page"><div class="ao-content-shell">
+  <div class="ao-content-hero"><span class="ao-content-kicker">Dijital Hizmetler</span><h1>Web, mobil, SEO ve dijital büyüme tek platformda.</h1><p>Ahost One; domain ve hosting dışında SiteBuilder, MobileBuilder, web tasarım, mobil uygulama, SEO, reklam ve marketplace hizmetlerini aynı ekosistemde toplar.</p><div class="ao-content-actions"><a class="ao-content-btn" href="<?= url('marketplace') ?>">Marketplace'i Keşfet</a><a class="ao-content-btn secondary" href="<?= url('client/register') ?>">Müşteri Paneli Aç</a></div></div>
+  <div class="ao-content-grid ">
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">💻</div><h3>Web Tasarım</h3><p>Kurumsal web sitesi, e-ticaret, portal ve özel yazılım projeleri.</p><a class="ao-content-btn secondary" href="<?= url('web-tasarim') ?>">İncele →</a></article>
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">📲</div><h3>Mobil Uygulama</h3><p>Android/iOS uygulama, panel entegrasyonu ve mağaza yayını.</p><a class="ao-content-btn secondary" href="<?= url('mobil-uygulama') ?>">İncele →</a></article>
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">🛍</div><h3>Marketplace</h3><p>Hazır tema, script, uygulama ve dijital hizmet ilanları.</p><a class="ao-content-btn secondary" href="<?= url('marketplace') ?>">Pazara git →</a></article>
+  </div>
+  <div class="ao-content-cta"><h2>Projenizi Ahost One ekosistemine taşıyın</h2><p>Domain, hosting, ürün, teklif, müşteri paneli ve destek süreçleri aynı tasarım diliyle çalışır.</p><div class="ao-content-actions"><a class="ao-content-btn" href="<?= url('teklif') ?>">Teklif Al</a><a class="ao-content-btn secondary" href="<?= url('urunler') ?>">Ürünleri Gör</a></div></div>
+</div></section>

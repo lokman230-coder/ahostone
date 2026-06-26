@@ -1,0 +1,20 @@
+{
+  "slug": "provider-center-pro",
+  "name": "Provider Center Pro",
+  "type": "provider",
+  "version": "1.0.0",
+  "description": "API destekli sağlayıcılar, ürün senkronizasyonu, bakiye ve rehber modülü.",
+  "settings": {
+    "enabled_help": {
+      "label": "Yardım Kılavuzu Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "api_key": {
+      "label": "API Key / Token",
+      "type": "password",
+      "secret": true,
+      "default": ""
+    }
+  }
+}

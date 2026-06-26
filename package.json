@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "qa:visual": "node tools/qa-visual-scan.js",
+    "qa:scan": "node tools/qa-scan-center.js"
+  },
+  "dependencies": {
+    "@playwright/test": "latest"
+  },
+  "devDependencies": {}
+}

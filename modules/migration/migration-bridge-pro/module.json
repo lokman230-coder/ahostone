@@ -1,0 +1,51 @@
+{
+  "slug": "migration-bridge-pro",
+  "name": "Migration Bridge Pro",
+  "type": "migration",
+  "version": "1.3.0",
+  "description": "Kaynak Sistem/WiseCP/Blesta için seçmeli import, USD/TL çift fiyat, domain uzantı fiyatı ve upsert destekli aktarım modülü.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "routes": "routes.php",
+  "install_sql": "install.sql",
+  "update_sql": "sql/update_1_3_0.sql",
+  "uninstall_sql": "uninstall.sql",
+  "permissions": [
+    "migration.view",
+    "migration.scan",
+    "migration.import",
+    "migration.settings"
+  ],
+  "settings": {
+    "default_source": {
+      "label": "Varsayılan Kaynak",
+      "type": "select",
+      "options": [
+        "Kaynak Sistem",
+        "WiseCP",
+        "Blesta"
+      ],
+      "default": "Kaynak Sistem"
+    },
+    "price_import": {
+      "label": "Ürün ve domain fiyatlarını aktar",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "currency_mapping": {
+      "label": "Para birimi eşleme aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "usd_try_rate": {
+      "label": "USD/TL manuel/fallback kur",
+      "type": "text",
+      "default": "40"
+    },
+    "margin_percent": {
+      "label": "Kur kar marjı %",
+      "type": "text",
+      "default": "0"
+    }
+  }
+}

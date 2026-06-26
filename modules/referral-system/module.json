@@ -1,0 +1,12 @@
+{
+  "slug": "referral-system",
+  "name": "Referral System",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Arkadaş davet bonusu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Referanslar",
+    "route": "admin/referral-system"
+  }
+}

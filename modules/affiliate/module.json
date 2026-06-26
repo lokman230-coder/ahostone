@@ -1,0 +1,30 @@
+{
+  "slug": "affiliate",
+  "name": "Affiliate Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Ortaklık programı. Referral link, komisyon oranı, ödeme sistemi ve ortak paneli.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "Affiliate",
+    "route": "admin/affiliate"
+  },
+  "settings": {
+    "commission_rate": {
+      "label": "Komisyon Oranı (%)",
+      "type": "number",
+      "default": "10"
+    },
+    "min_payout": {
+      "label": "Minimum Ödeme (TL)",
+      "type": "number",
+      "default": "500"
+    },
+    "cookie_days": {
+      "label": "Cookie Süresi (gün)",
+      "type": "number",
+      "default": "30"
+    }
+  }
+}

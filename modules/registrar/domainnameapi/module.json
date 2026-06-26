@@ -1,0 +1,21 @@
+{
+  "name": "DomainNameAPI Registrar",
+  "slug": "domainnameapi",
+  "type": "registrar",
+  "version": "1.1.0",
+  "description": "DomainNameAPI REST bağlantısı: Reseller ID, API Key ve OTE/Test API Key ile domain kayıt, transfer, yenileme, DNS ve nameserver işlemleri.",
+  "admin_menu": {
+    "title": "DomainNameAPI",
+    "route": "admin/domain-center/registrars"
+  },
+  "requires": [
+    "domain_core"
+  ],
+  "settings": [
+    {"key":"reseller_id","label":"Reseller ID","type":"text"},
+    {"key":"api_key","label":"Canlı API Key","type":"password","secret":true},
+    {"key":"ote_api_key","label":"OTE/Test API Key","type":"password","secret":true},
+    {"key":"test_mode","label":"Test Modu","type":"checkbox","default":"1"},
+    {"key":"test_domain","label":"Test Domaini","type":"text","default":"example.com"}
+  ]
+}

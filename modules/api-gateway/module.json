@@ -1,0 +1,13 @@
+{
+  "slug": "api-gateway",
+  "name": "API Gateway",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "REST API ve Webhook sistemi. Developer portal için API anahtarları, endpoint'ler ve loglar.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "API Gateway",
+    "route": "admin/api-gateway"
+  }
+}

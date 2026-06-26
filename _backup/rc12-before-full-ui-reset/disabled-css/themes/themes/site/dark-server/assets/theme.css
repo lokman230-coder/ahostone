@@ -1,0 +1,7 @@
+/* dark-server active site theme */
+body.theme-dark-server{--ao-primary:#111827;--ao-secondary:#38bdf8;--theme-slug:"dark-server";}
+body.theme-dark-server .site-header{border-top:4px solid #111827;}
+body.theme-dark-server .site-brand{color:#111827!important;}
+body.theme-dark-server .site-btn, body.theme-dark-server button, body.theme-dark-server .ao-btn{background:linear-gradient(135deg,#111827,#38bdf8);color:#fff;border-color:transparent;}
+body.theme-dark-server a{color:#111827;}
+body.theme-dark-server{background:#050816;color:#e5e7eb}.theme-dark-server .site-header{background:#0b1220}.theme-dark-server .site-card,.theme-dark-server .domain-box{background:#111827;color:#e5e7eb}

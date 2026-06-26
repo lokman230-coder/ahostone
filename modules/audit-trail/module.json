@@ -1,0 +1,12 @@
+{
+  "slug": "audit-trail",
+  "name": "Denetim İzi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Tüm değişikliklerin kaydı",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Denetim İzi",
+    "route": "admin/audit-trail"
+  }
+}

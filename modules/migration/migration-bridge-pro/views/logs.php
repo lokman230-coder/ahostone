@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?= url('modules/migration/migration-bridge-pro/assets/css/migration-bridge-pro.css') ?>">
+<div class="mbp-wrap"><div class="mbp-card"><h1>Migration Logları</h1><table class="mbp-table"><thead><tr><th>Tarih</th><th>Seviye</th><th>Mesaj</th></tr></thead><tbody><?php foreach($logs as $l): ?><tr><td><?= htmlspecialchars($l['created_at']) ?></td><td><?= htmlspecialchars($l['level']) ?></td><td><?= htmlspecialchars($l['message']) ?></td></tr><?php endforeach; ?></tbody></table></div></div>

@@ -1,0 +1,10 @@
+{
+  "slug": "rbac",
+  "name": "Yetkilendirme Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Rol tabanlı erişim kontrolü. Admin, Staff, Reseller, Customer roller.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": { "title": "Yetkiler", "route": "admin/rbac" }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "ssl-autoinstall",
+  "name": "SSL Auto-Install",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Let's Encrypt, AutoSSL otomatik kurulum",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "SSL",
+    "route": "admin/ssl-autoinstall"
+  }
+}

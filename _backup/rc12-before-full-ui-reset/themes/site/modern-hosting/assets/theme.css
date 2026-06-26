@@ -1,0 +1,7 @@
+/* modern-hosting active site theme */
+body.theme-modern-hosting{--ao-primary:#7c3aed;--ao-secondary:#06b6d4;--theme-slug:"modern-hosting";}
+body.theme-modern-hosting .site-header{border-top:4px solid #7c3aed;}
+body.theme-modern-hosting .site-brand{color:#7c3aed!important;}
+body.theme-modern-hosting .site-btn, body.theme-modern-hosting button, body.theme-modern-hosting .ao-btn{background:linear-gradient(135deg,#7c3aed,#06b6d4);color:#fff;border-color:transparent;}
+body.theme-modern-hosting a{color:#7c3aed;}
+

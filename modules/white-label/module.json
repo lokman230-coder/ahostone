@@ -1,0 +1,8 @@
+{
+  "slug": "white-label",
+  "name": "White Label",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Alt marka/white label sistemi. Bayiler için özel tema.",
+  "author": "Ahost One"
+}

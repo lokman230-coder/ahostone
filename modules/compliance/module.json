@@ -1,0 +1,12 @@
+{
+  "slug": "compliance",
+  "name": "Uyumluluk",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "KVKK/GDPR uyumluluğu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Uyumluluk",
+    "route": "admin/compliance"
+  }
+}

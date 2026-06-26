@@ -1,0 +1,9 @@
+{
+  "slug": "abandoned-cart",
+  "name": "Sepet Kurtarma",
+  "type": "marketing",
+  "version": "1.0.0",
+  "description": "Bırakılan sepetleri otomatik email/SMS ile kurtarma.",
+  "author": "Ahost One",
+  "admin_menu": { "title": "Sepet Kurtarma", "route": "admin/abandoned-cart" }
+}

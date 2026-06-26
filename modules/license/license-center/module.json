@@ -1,0 +1,17 @@
+{
+  "name": "License Center Pro",
+  "slug": "license-center",
+  "type": "license",
+  "version": "1.0.0",
+  "description": "Kaynak kod lisanslama, Purchase Code, domain/cihaz/süreli lisans modülü.",
+  "admin_menu": {
+    "title": "License Center",
+    "route": "admin/license-center"
+  },
+  "requires": [],
+  "settings": [
+    {"key":"signature_algorithm","label":"İmza Algoritması","type":"text","default":"RSA-4096-SHA256"},
+    {"key":"offline_grace_days","label":"Offline Tolerans Günü","type":"text","default":"30"},
+    {"key":"auto_issue","label":"Ödeme Sonrası Otomatik Lisans","type":"checkbox","default":"1"}
+  ]
+}

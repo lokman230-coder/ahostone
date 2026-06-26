@@ -1,0 +1,27 @@
+
+/* Ahost One v24.6.8 final polish */
+.ao-social-icons{display:inline-flex;align-items:center;gap:8px}
+.ao-social-icons a{width:30px;height:30px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:rgba(15,23,42,.06);border:1px solid rgba(148,163,184,.28);color:#0f172a;text-decoration:none;transition:.18s ease}
+.ao-social-icons a:hover{transform:translateY(-1px);background:#0f172a;color:#fff}
+.ao-social-icons svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.admin-customer-switch{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#f8fafc;border:1px solid #e2e8f0;border-radius:18px;padding:10px 12px;margin:12px 0}
+.admin-customer-switch label{font-size:12px;font-weight:900;color:#475569;text-transform:uppercase;letter-spacing:.04em}
+.admin-customer-switch select,.admin-products-search input{min-height:42px;border:1px solid #dbe4ef;border-radius:13px;padding:0 14px;background:#fff;color:#0f172a;font-weight:700}
+.admin-products-search{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 0 18px;padding:12px;border:1px solid #e2e8f0;background:#f8fafc;border-radius:18px}
+.admin-products-search input{min-width:min(100%,360px)}
+.invoice-email-preview{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid #e2e8f0;border-radius:20px;padding:18px;margin-top:18px;box-shadow:0 12px 35px rgba(15,23,42,.06)}
+.invoice-email-preview .mail-head{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #e2e8f0;padding-bottom:12px;margin-bottom:12px}
+.invoice-email-preview .mail-brand{font-size:20px;font-weight:900;color:#0f172a}
+.invoice-email-preview .mail-subject{color:#475569;font-size:13px}
+.invoice-email-preview .mail-body{line-height:1.65;color:#334155}
+.invoice-email-preview .mail-total{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:14px;background:#eff6ff;color:#1e40af;font-weight:900;margin-top:12px}
+.invoice-pro-actions .ao-mini-btn, .invoice-pro-actions button.ao-mini-btn{border:0;text-decoration:none}
+.ao-product-features li{display:flex;gap:8px;align-items:flex-start}
+.ao-product-features li:before{content:"✓";color:#16a34a;font-weight:900}
+.ao-product-card p{min-height:48px}
+@media(max-width:820px){
+ .ao-social-icons{gap:6px}
+ .ao-social-icons a{width:34px;height:34px}
+ .invoice-email-preview .mail-head{flex-direction:column}
+ .admin-customer-switch select,.admin-products-search input{width:100%}
+}

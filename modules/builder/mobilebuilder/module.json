@@ -1,0 +1,50 @@
+{
+  "name": "MobileBuilder Pro",
+  "slug": "mobilebuilder",
+  "type": "builder",
+  "version": "2.0.0",
+  "description": "APK, AAB ve PWA oluşturucu - Emlak, Restoran, Radyo, Kurumsal, E-Ticaret şablonları ile profesyonel mobil uygulamalar",
+  "author": "Ahost One",
+  "category": "builder",
+  "icon": "fa-mobile-alt",
+  "price": 0,
+  "features": [
+    "APK Kaynak Export",
+    "AAB Kaynak Export",
+    "PWA Export",
+    "Firebase Entegrasyonu",
+    "8 Hazır Şablon",
+    "Lisanslama Sistemi",
+    "Build Logları",
+    "Sürüm Yönetimi",
+    "Menü Builder",
+    "Renk ve Tema Ayarları"
+  ],
+  "templates": [
+    {"id": "blank", "name": "Boş Uygulama", "category": "general"},
+    {"id": "realestate", "name": "Emlak Uygulaması", "category": "business"},
+    {"id": "restaurant", "name": "Restoran Uygulaması", "category": "business"},
+    {"id": "radio", "name": "Radyo Uygulaması", "category": "media"},
+    {"id": "corporate", "name": "Kurumsal Uygulama", "category": "business"},
+    {"id": "ecommerce", "name": "E-Ticaret Uygulaması", "category": "business"},
+    {"id": "news", "name": "Haber Uygulaması", "category": "media"},
+    {"id": "education", "name": "Eğitim Uygulaması", "category": "education"}
+  ],
+  "license_types": [
+    {"id": "single_domain", "name": "Tek Domain Lisansı", "description": "Bir domain için lisans"},
+    {"id": "open_source", "name": "Açık Kaynak Kod", "description": "Kaynak kod ile dağıtım"}
+  ],
+  "admin_menu": {
+    "title": "Mobil Builder",
+    "route": "admin/builder/mobile"
+  },
+  "user_menu": {
+    "title": "Mobil Uygulama Oluştur",
+    "route": "musteri/mobile-builder"
+  },
+  "settings": [
+    {"key": "default_license", "label": "Varsayılan Lisans Tipi", "type": "select", "options": ["single_domain", "open_source"], "default": "single_domain"},
+    {"key": "build_enabled", "label": "Build İzni", "type": "checkbox", "default": "1"},
+    {"key": "max_projects", "label": "Maksimum Proje", "type": "number", "default": "10"}
+  ]
+}

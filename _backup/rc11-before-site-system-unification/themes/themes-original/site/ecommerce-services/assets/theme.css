@@ -1,0 +1,7 @@
+/* ecommerce-services active site theme */
+body.theme-ecommerce-services{--ao-primary:#16a34a;--ao-secondary:#f59e0b;--theme-slug:"ecommerce-services";}
+body.theme-ecommerce-services .site-header{border-top:4px solid #16a34a;}
+body.theme-ecommerce-services .site-brand{color:#16a34a!important;}
+body.theme-ecommerce-services .site-btn, body.theme-ecommerce-services button, body.theme-ecommerce-services .ao-btn{background:linear-gradient(135deg,#16a34a,#f59e0b);color:#fff;border-color:transparent;}
+body.theme-ecommerce-services a{color:#16a34a;}
+

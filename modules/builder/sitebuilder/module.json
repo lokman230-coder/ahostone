@@ -1,0 +1,76 @@
+{
+  "name": "SiteBuilder Pro",
+  "slug": "sitebuilder",
+  "type": "builder",
+  "version": "2.0.0",
+  "description": "Sürükle-bırak site oluşturucu - Hazır şablonlar, bloklar, header/footer builder, ZIP export ve lisanslama sistemi",
+  "author": "Ahost One",
+  "category": "builder",
+  "icon": "fa-palette",
+  "price": 0,
+  "features": [
+    "Sürükle-Bırak Editor",
+    "12 Hazır Şablon",
+    "Blok Sistemi (Hero, Metin, Görsel, Video, Buton vb.)",
+    "Header Builder",
+    "Footer Builder",
+    "Menü Builder (Alt menü, Mega menü)",
+    "Sayfa Builder (Hakkımızda, İletişim, KVKK vb.)",
+    "Blog Sistemi",
+    "Form Builder",
+    "ZIP Export",
+    "Lisanslama Sistemi",
+    "SEO Ayarları",
+    "AI İçerik Yardımcısı"
+  ],
+  "templates": [
+    {"id": "hosting", "name": "Hosting Firması", "category": "business"},
+    {"id": "corporate", "name": "Kurumsal Şirket", "category": "business"},
+    {"id": "software", "name": "Yazılım Firması", "category": "business"},
+    {"id": "agency", "name": "Ajans", "category": "business"},
+    {"id": "radio", "name": "Radyo", "category": "media"},
+    {"id": "news", "name": "Haber", "category": "media"},
+    {"id": "ecommerce", "name": "E-Ticaret Ön Site", "category": "ecommerce"},
+    {"id": "landing", "name": "Landing Page", "category": "marketing"},
+    {"id": "portfolio", "name": "Portfolyo", "category": "personal"},
+    {"id": "blog", "name": "Blog", "category": "personal"},
+    {"id": "restaurant", "name": "Restoran", "category": "business"},
+    {"id": "realestate", "name": "Emlak", "category": "business"}
+  ],
+  "blocks": [
+    {"id": "hero", "name": "Hero Section", "icon": "fa-image"},
+    {"id": "text", "name": "Metin Bloğu", "icon": "fa-font"},
+    {"id": "image", "name": "Görsel", "icon": "fa-photo"},
+    {"id": "video", "name": "Video", "icon": "fa-video"},
+    {"id": "button", "name": "Buton", "icon": "fa-hand-pointer"},
+    {"id": "features", "name": "Özellikler", "icon": "fa-star"},
+    {"id": "pricing", "name": "Fiyatlandırma", "icon": "fa-tags"},
+    {"id": "testimonials", "name": "Referanslar", "icon": "fa-comments"},
+    {"id": "faq", "name": "SSS", "icon": "fa-question-circle"},
+    {"id": "cta", "name": "CTA", "icon": "fa-bullhorn"},
+    {"id": "form", "name": "Form", "icon": "fa-edit"},
+    {"id": "map", "name": "Harita", "icon": "fa-map-marker-alt"},
+    {"id": "counter", "name": "Sayaç", "icon": "fa-calculator"},
+    {"id": "gallery", "name": "Galeri", "icon": "fa-images"},
+    {"id": "team", "name": "Ekip", "icon": "fa-users"},
+    {"id": "blog-grid", "name": "Blog Grid", "icon": "fa-newspaper"}
+  ],
+  "license_types": [
+    {"id": "single_domain", "name": "Tek Domain Lisansı", "description": "Bir domain için lisans"},
+    {"id": "open_source", "name": "Açık Kaynak Kod", "description": "Kaynak kod ile dağıtım"}
+  ],
+  "admin_menu": {
+    "title": "Site Builder",
+    "route": "admin/builder/site"
+  },
+  "user_menu": {
+    "title": "Site Oluştur",
+    "route": "musteri/site-builder"
+  },
+  "settings": [
+    {"key": "default_license", "label": "Varsayılan Lisans Tipi", "type": "select", "options": ["single_domain", "open_source"], "default": "single_domain"},
+    {"key": "ai_enabled", "label": "AI Yardımcısı Aktif", "type": "checkbox", "default": "1"},
+    {"key": "max_sites", "label": "Maksimum Site", "type": "number", "default": "5"},
+    {"key": "publish_mode", "label": "Yayın Modu", "type": "select", "options": {"draft": "Taslak", "direct": "Doğrudan Yayın"}, "default": "draft"}
+  ]
+}

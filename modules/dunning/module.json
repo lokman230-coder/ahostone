@@ -1,0 +1,45 @@
+{
+  "slug": "dunning",
+  "name": "Dunning Sistemi",
+  "type": "billing",
+  "version": "1.0.0",
+  "description": "Otomatik ödeme hatırlatmaları, gecikme cezası ve tahsilat yönetimi.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "Dunning",
+    "route": "admin/dunning"
+  },
+  "settings": {
+    "enabled": {
+      "label": "Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "first_reminder_days": {
+      "label": "1. Hatırlatma (Gün)",
+      "type": "number",
+      "default": "3"
+    },
+    "second_reminder_days": {
+      "label": "2. Hatırlatma (Gün)",
+      "type": "number",
+      "default": "7"
+    },
+    "third_reminder_days": {
+      "label": "3. Hatırlatma (Gün)",
+      "type": "number",
+      "default": "14"
+    },
+    "suspend_days": {
+      "label": "Askıya Alma (Gün)",
+      "type": "number",
+      "default": "21"
+    },
+    "terminate_days": {
+      "label": "İptal Etme (Gün)",
+      "type": "number",
+      "default": "30"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "sla",
+  "name": "SLA Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "SLA takibi ve raporlama",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "SLA Sistemi",
+    "route": "admin/sla"
+  }
+}

@@ -1,0 +1,7 @@
+/* domain-marketplace active site theme */
+body.theme-domain-marketplace{--ao-primary:#f97316;--ao-secondary:#111827;--theme-slug:"domain-marketplace";}
+body.theme-domain-marketplace .site-header{border-top:4px solid #f97316;}
+body.theme-domain-marketplace .site-brand{color:#f97316!important;}
+body.theme-domain-marketplace .site-btn, body.theme-domain-marketplace button, body.theme-domain-marketplace .ao-btn{background:linear-gradient(135deg,#f97316,#111827);color:#fff;border-color:transparent;}
+body.theme-domain-marketplace a{color:#f97316;}
+.theme-domain-marketplace .site-header{background:#fff7ed}.theme-domain-marketplace .site-brand:after{content:" Marketplace";font-size:12px;background:#ffedd5;color:#9a3412;border-radius:999px;padding:4px 8px;margin-left:6px}

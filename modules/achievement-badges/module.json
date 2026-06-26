@@ -1,0 +1,12 @@
+{
+  "slug": "achievement-badges",
+  "name": "Başarı Rozetleri",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Rozet ödülleri",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Rozetler",
+    "route": "admin/achievement-badges"
+  }
+}

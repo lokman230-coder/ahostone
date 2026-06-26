@@ -1,0 +1,12 @@
+{
+  "slug": "zapier-integration",
+  "name": "Zapier/Make",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "5000+ uygulama bağlantısı",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Zapier",
+    "route": "admin/zapier-integration"
+  }
+}

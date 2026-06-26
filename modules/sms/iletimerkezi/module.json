@@ -1,0 +1,20 @@
+{
+  "name": "İletiMerkezi SMS",
+  "slug": "iletimerkezi",
+  "type": "notification",
+  "version": "1.0.0",
+  "description": "İletiMerkezi SMS gönderimi, bakiye sorgulama ve hazır şablon modülü.",
+  "admin_menu": {
+    "title": "İletiMerkezi",
+    "route": "admin/notifications"
+  },
+  "requires": [
+    "notification_core"
+  ],
+  "settings": [
+    {"key":"api_key","label":"API Key","type":"password","secret":true},
+    {"key":"api_hash","label":"API Hash","type":"password","secret":true},
+    {"key":"sender","label":"Gönderici Başlığı","type":"text","default":"AhostOne"},
+    {"key":"test_mode","label":"Test Modu","type":"checkbox","default":"1"}
+  ]
+}

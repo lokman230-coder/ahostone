@@ -1,0 +1,12 @@
+{
+  "slug": "stock-photos",
+  "name": "Stock Photos",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Unsplash, Pexels entegrasyonu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Fotoğraflar",
+    "route": "admin/stock-photos"
+  }
+}

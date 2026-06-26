@@ -1,0 +1,308 @@
+/**
+ * Ahost One Dark Mode Theme
+ * Karanlık tema - Mevcut temayı bozmaz, sadece renkleri override eder
+ * Kullanım: body class="dark-mode" eklendiğinde aktif olur
+ */
+
+:root {
+    /* Light Mode (Default) */
+    --ao-bg: #f8fafc;
+    --ao-bg-alt: #ffffff;
+    --ao-bg-dark: #f1f5f9;
+    --ao-text: #1e293b;
+    --ao-text-muted: #64748b;
+    --ao-border: #e2e8f0;
+    --ao-primary: #2563eb;
+    --ao-primary-hover: #1d4ed8;
+    --ao-secondary: #0f172a;
+    --ao-success: #059669;
+    --ao-warning: #d97706;
+    --ao-danger: #dc2626;
+    --ao-card-shadow: rgba(15, 23, 42, 0.08);
+    --ao-overlay: rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Mode */
+body.dark-mode,
+.dark-mode {
+    --ao-bg: #0f172a;
+    --ao-bg-alt: #1e293b;
+    --ao-bg-dark: #0f172a;
+    --ao-text: #f1f5f9;
+    --ao-text-muted: #94a3b8;
+    --ao-border: #334155;
+    --ao-primary: #3b82f6;
+    --ao-primary-hover: #60a5fa;
+    --ao-secondary: #1e293b;
+    --ao-success: #10b981;
+    --ao-warning: #f59e0b;
+    --ao-danger: #ef4444;
+    --ao-card-shadow: rgba(0, 0, 0, 0.4);
+    --ao-overlay: rgba(0, 0, 0, 0.7);
+}
+
+/* Base Dark Mode Styles */
+body.dark-mode {
+    background-color: var(--ao-bg) !important;
+    color: var(--ao-text) !important;
+}
+
+/* Cards */
+body.dark-mode .ao-card,
+body.dark-mode .card,
+body.dark-mode [class*="card"] {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+    box-shadow: 0 4px 20px var(--ao-card-shadow) !important;
+}
+
+/* Text */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode div,
+body.dark-mode label {
+    color: var(--ao-text) !important;
+}
+
+/* Links */
+body.dark-mode a {
+    color: var(--ao-primary) !important;
+}
+
+body.dark-mode a:hover {
+    color: var(--ao-primary-hover) !important;
+}
+
+/* Forms */
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+    color: var(--ao-text) !important;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: var(--ao-text-muted) !important;
+}
+
+/* Tables */
+body.dark-mode table,
+body.dark-mode .ao-table {
+    background-color: var(--ao-bg-alt) !important;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+    border-color: var(--ao-border) !important;
+    color: var(--ao-text) !important;
+}
+
+body.dark-mode th {
+    background-color: var(--ao-bg-dark) !important;
+}
+
+/* Buttons */
+body.dark-mode .ao-btn,
+body.dark-mode button {
+    background-color: var(--ao-primary) !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .ao-btn.secondary,
+body.dark-mode .ao-btn-outline {
+    background-color: transparent !important;
+    border-color: var(--ao-border) !important;
+    color: var(--ao-text) !important;
+}
+
+/* Badges */
+body.dark-mode .ao-badge {
+    border-radius: 9999px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+body.dark-mode .ao-badge.active,
+body.dark-mode .ao-badge.published {
+    background-color: var(--ao-success) !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .ao-badge.inactive,
+body.dark-mode .ao-badge.draft {
+    background-color: var(--ao-text-muted) !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .ao-badge.pending,
+body.dark-mode .ao-badge.pending-approval {
+    background-color: var(--ao-warning) !important;
+    color: #ffffff !important;
+}
+
+/* Sidebar / Navigation */
+body.dark-mode aside,
+body.dark-mode sidebar,
+body.dark-mode nav,
+body.dark-mode .sidebar {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+}
+
+/* Modal */
+body.dark-mode .modal,
+body.dark-mode .popup,
+body.dark-mode [class*="modal"] {
+    background-color: var(--ao-overlay) !important;
+}
+
+body.dark-mode .modal-content,
+body.dark-mode .popup-content {
+    background-color: var(--ao-bg-alt) !important;
+    color: var(--ao-text) !important;
+}
+
+/* Scrollbar */
+body.dark-mode ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+    background: var(--ao-bg-dark);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: var(--ao-border);
+    border-radius: 4px;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: var(--ao-text-muted);
+}
+
+/* Code */
+body.dark-mode code,
+body.dark-mode pre {
+    background-color: var(--ao-bg-dark) !important;
+    color: #93c5fd !important;
+}
+
+/* Dashboard Stats */
+body.dark-mode .ao-stat,
+body.dark-mode .stat-card {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+}
+
+body.dark-mode .ao-stat strong {
+    color: var(--ao-primary) !important;
+}
+
+/* Dropdown */
+body.dark-mode .dropdown,
+body.dark-mode [class*="dropdown"],
+body.dark-mode [class*="dropdown-menu"] {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+    box-shadow: 0 10px 40px var(--ao-card-shadow) !important;
+}
+
+/* Tabs */
+body.dark-mode .ao-tabs button,
+body.dark-mode [class*="tab"] button {
+    background-color: transparent !important;
+    color: var(--ao-text-muted) !important;
+    border-color: transparent !important;
+}
+
+body.dark-mode .ao-tabs button.active,
+body.dark-mode [class*="tab"] button.active {
+    background-color: var(--ao-primary) !important;
+    color: #ffffff !important;
+}
+
+/* Footer */
+body.dark-mode footer,
+body.dark-mode .footer {
+    background-color: var(--ao-bg-dark) !important;
+    border-color: var(--ao-border) !important;
+    color: var(--ao-text-muted) !important;
+}
+
+/* Admin Panel Specific */
+body.dark-mode .ao-page-head {
+    background-color: var(--ao-bg-alt) !important;
+    border-color: var(--ao-border) !important;
+}
+
+body.dark-mode .ao-grid,
+body.dark-mode .grid {
+    background-color: var(--ao-bg) !important;
+}
+
+/* Transitions */
+body.dark-mode * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* Print - override for print */
+@media print {
+    body.dark-mode {
+        background-color: white !important;
+        color: black !important;
+    }
+    body.dark-mode * {
+        transition: none !important;
+    }
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--ao-primary), #06b6d4);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
+    transition: transform 0.2s;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+}
+
+.dark-mode-toggle .icon-moon::before {
+    content: "🌙";
+}
+
+.dark-mode-toggle .icon-sun::before {
+    content: "☀️";
+}
+
+/* System prefers dark mode */
+@media (prefers-color-scheme: dark) {
+    :root:not(:has(body:not(.light-mode))) {
+        --ao-bg: #0f172a;
+        --ao-bg-alt: #1e293b;
+        --ao-text: #f1f5f9;
+    }
+}

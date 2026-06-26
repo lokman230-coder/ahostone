@@ -1,0 +1,8 @@
+/* Workflow Automation Styles */
+.automation-builder { display: grid; grid-template-columns: 1fr 80px 1fr; gap: 20px; align-items: center; }
+.trigger-box, .action-box { background: #fff; border: 2px solid #e2e8f0; border-radius: 16px; padding: 24px; }
+.trigger-box { border-color: #2563eb; }
+.action-box { border-color: #10b981; }
+.connector { display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #64748b; }
+.automation-list { display: flex; flex-direction: column; gap: 12px; }
+.automation-item { display: flex; align-items: center; justify-content: space-between; padding: 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; }

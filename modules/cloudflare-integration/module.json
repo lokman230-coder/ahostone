@@ -1,0 +1,12 @@
+{
+  "slug": "cloudflare-integration",
+  "name": "CloudFlare",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "CDN, DNS, güvenlik entegrasyonu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "CloudFlare",
+    "route": "admin/cloudflare-integration"
+  }
+}

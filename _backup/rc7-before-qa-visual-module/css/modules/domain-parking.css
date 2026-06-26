@@ -1,0 +1,6 @@
+/* Domain Parking Styles */
+.parking-page { min-height: 100vh; background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%); color: #fff; }
+.parking-hero { text-align: center; padding: 80px 20px; }
+.domain-for-sale { font-size: 3rem; font-weight: bold; margin-bottom: 20px; }
+.parking-price { font-size: 2rem; color: #10b981; }
+.parking-actions { display: flex; gap: 16px; justify-content: center; margin-top: 30px; }

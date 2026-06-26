@@ -1,0 +1,29 @@
+/* Ahost One v24.1.8 CSS Isolation Layer
+   Amaç: eski global UI katmanlarının etkisini azaltmak ve modül bazlı alanları scope içinde tutmak. */
+:root{--ao-z-header:7000;--ao-z-dropdown:9000;--ao-z-widget:8500;--ao-z-bottom-nav:7600;}
+body[data-app="site"] .ao-admin,
+body[data-app="site"] .customer-shell{display:initial;}
+body[data-app="admin"] .site-shell-header,
+body[data-app="admin"] .mobile-bottom-nav,
+body[data-app="admin"] .support-widget-pro{display:none!important;}
+body[data-app="client"] .ao-admin{display:none!important;}
+/* Ortak buton çakışmasını azalt */
+body[data-app="site"] .site-btn.secondary,
+body[data-app="site"] .btn-order{background:#fff!important;color:#0f172a!important;border:1px solid #dbe2ea!important;font-weight:800;}
+body[data-app="site"] .site-btn.secondary:hover,
+body[data-app="site"] .btn-order:hover{background:#f8fafc!important;color:#020617!important;}
+/* Dropdownlar her modülde üstte kalsın */
+.ao-v222-dd .ao-v222-menu,.ao-v222-dd .ao-v222-mega,.client-login-menu,.site-submenu{z-index:var(--ao-z-dropdown)!important;}
+/* Mobil header ve bottom nav çakışma koruması */
+@media(max-width:768px){
+  body[data-app="site"] .site-shell-header{position:sticky;top:0;z-index:var(--ao-z-header);background:#fff;}
+  body[data-app="site"] main{padding-bottom:82px;}
+  body[data-app="client"] .customer-main{padding-bottom:96px!important;}
+  body[data-app="client"] .mobile-bottom-nav{z-index:var(--ao-z-bottom-nav)!important;}
+  .inline-builder-toggle,.floating-edit,.builder-edit-toggle{bottom:96px!important;z-index:calc(var(--ao-z-bottom-nav) + 10)!important;}
+  .support-widget-pro,.ao-support-widget,.swp-widget{bottom:92px!important;z-index:var(--ao-z-widget)!important;}
+  body[data-app="client"] .customer-page-head{gap:12px;align-items:flex-start;}
+}
+/* Modül içerikleri kendi kapsayıcısı dışına taşmasın */
+.product-center,.domain-center,.marketplace-shell,.support-center,.customer-shell,.ao-content{max-width:100%;overflow-x:clip;}
+.table-responsive,.ao-table-wrap,.customer-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}

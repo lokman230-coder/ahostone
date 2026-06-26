@@ -1,0 +1,19 @@
+Ahost One RC23 tarama raporu
+
+Baz: rc22-admin-sidebar-rc10-only-file-only
+Referans: v24.11.7-master-header-ui-fix sadece admin dashboard kart düzeni
+
+Uygulanan yaklaşım:
+- RC22 korunarak sadece dashboard kart/grid CSS katmanı düzeltildi.
+- v24.11.7'den içerik/sekme/ayar/ürün grubu kodu taşınmadı.
+- Dashboard view fonksiyonları korunarak sadece görünen sürüm etiketi RC23 yapıldı.
+- Version ve asset_version RC23'e senkronlandı.
+
+Kontrol sonuçları:
+- PHP syntax: temiz
+- CSS brace dengesi: temiz
+- ZIP integrity: temiz
+
+Canlı test beklentisi:
+- CSS URL: ao-full-ui-reset.css?v=25.0.0-rc23
+- Admin dashboard KPI kartları v24.11.7 görselindeki gibi düzenli 4 kolon görünmelidir.

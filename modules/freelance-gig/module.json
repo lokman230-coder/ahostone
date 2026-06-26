@@ -1,0 +1,12 @@
+{
+  "slug": "freelance-gig",
+  "name": "Freelance Gig Platform",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Freelance web tasarımcı platformu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Freelancer'lar",
+    "route": "admin/freelance-gig"
+  }
+}

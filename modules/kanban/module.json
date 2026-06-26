@@ -1,0 +1,13 @@
+{
+  "slug": "kanban",
+  "name": "Kanban Board",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Proje ve görev yönetimi için Kanban board sistemi. Sürükle-bırak kartlar, atama ve deadline.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "Kanban",
+    "route": "admin/kanban"
+  }
+}

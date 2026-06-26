@@ -1,0 +1,1 @@
+document.addEventListener('submit',e=>{const f=e.target;if(f.matches('form[action*="cache-center/clear"]')){if(!confirm('Seçilen cache alanı temizlensin mi?')) e.preventDefault();} if(f.matches('form[action*="backup-center/create"]')){if(!confirm('Yedek işlemi başlatılsın mı?')) e.preventDefault();}});

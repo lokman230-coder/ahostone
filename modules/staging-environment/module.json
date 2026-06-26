@@ -1,0 +1,12 @@
+{
+  "slug": "staging-environment",
+  "name": "Staging Ortamı",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "One-click staging ortamı",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Staging",
+    "route": "admin/staging-environment"
+  }
+}

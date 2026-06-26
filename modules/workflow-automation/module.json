@@ -1,0 +1,12 @@
+{
+  "slug": "workflow-automation",
+  "name": "Workflow Automation",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "IFTTT tarzı otomasyon",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Otomasyon",
+    "route": "admin/workflow-automation"
+  }
+}

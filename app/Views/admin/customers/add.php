@@ -1,0 +1,6 @@
+<?php $flash=get_flash(); ?>
+<?php if($flash): ?><div class="ao-alert <?= e($flash['type']) ?>"><?= e($flash['message']) ?></div><?php endif; ?>
+<div class="ao-page-head"><div><h2>Yeni Müşteri</h2><p>Admin üzerinden müşteri oluşturma. Şifre verilirse müşteri paneline giriş yapabilir.</p></div><a class="ao-light-btn" href="<?= url('admin/customers') ?>">← Listeye Dön</a></div>
+<form class="ao-card ao-form" method="post" action="<?= url('admin/customers/add') ?>">
+<div class="ao-form-grid"><label>Ad<input name="first_name" required></label><label>Soyad<input name="last_name" required></label><label>Firma<input name="company_name"></label><label>E-posta<input type="email" name="email" required></label><label>Telefon<input name="phone"></label><label>TC Kimlik No <small>(opsiyonel)</small><input name="tc_identity_no" maxlength="11"></label><label>Doğum Tarihi <small>(opsiyonel)</small><input type="date" name="birth_date"></label><label>Durum<select name="status"><option value="active">Aktif</option><option value="inactive">Pasif</option><option value="closed">Kapalı</option></select></label><label class="full">Geçici Şifre<input type="password" name="password" placeholder="Boş bırakılırsa giriş şifresi oluşturulmaz"></label></div><button class="ao-btn">Müşteriyi Kaydet</button>
+</form>

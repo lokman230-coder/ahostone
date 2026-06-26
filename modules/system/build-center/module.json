@@ -1,0 +1,18 @@
+{
+  "name": "Build Center Pro",
+  "slug": "build-center",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Kalıcı Android SDK, Gradle, JDK, build queue ve APK/AAB repository modülü.",
+  "admin_menu": {
+    "title": "Build Center",
+    "route": "admin/build-center"
+  },
+  "requires": [],
+  "settings": [
+    {"key":"java_home","label":"JAVA_HOME","type":"text"},
+    {"key":"android_sdk_root","label":"Android SDK Dizini","type":"text"},
+    {"key":"gradle_path","label":"Gradle Dizini","type":"text"},
+    {"key":"max_parallel_builds","label":"Paralel Build Limiti","type":"text","default":"1"}
+  ]
+}

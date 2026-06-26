@@ -1,0 +1,35 @@
+{
+  "slug": "opensrs",
+  "name": "OpenSRS Registrar",
+  "type": "registrar",
+  "version": "1.0.0",
+  "description": "OpenSRS/Tucows domain kayıt, transfer, yenileme ve DNS yönetimi.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "OpenSRS",
+    "route": "admin/domain-center/registrar/opensrs"
+  },
+  "settings": {
+    "api_host": {
+      "label": "API Host",
+      "type": "text",
+      "default": "rr-n1-tor.opensrs.net"
+    },
+    "api_key": {
+      "label": "API Key",
+      "type": "text",
+      "required": true
+    },
+    "ns1": {
+      "label": "Nameserver 1",
+      "type": "text",
+      "default": "ns1.yourdomain.com"
+    },
+    "ns2": {
+      "label": "Nameserver 2",
+      "type": "text",
+      "default": "ns2.yourdomain.com"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Uploads and cache
+uploads/
+storage/
+cache/
+sessions/
+tmp/
+
+# Environment
+.env
+.env.*
+
+# Composer
+vendor/
+
+# Node
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+
+# ZIP files (distribute separately)
+*.zip

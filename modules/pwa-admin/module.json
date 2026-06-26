@@ -1,0 +1,8 @@
+{
+  "slug": "pwa-admin",
+  "name": "PWA Admin Panel",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Mobil uyumlu PWA admin paneli. Telefon ve tablet'te kullanım.",
+  "author": "Ahost One"
+}

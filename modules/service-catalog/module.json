@@ -1,0 +1,12 @@
+{
+  "slug": "service-catalog",
+  "name": "Hizmet Kataloğu",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "ITIL uyumlu hizmetler",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Hizmet Kataloğu",
+    "route": "admin/service-catalog"
+  }
+}

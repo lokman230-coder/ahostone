@@ -1,0 +1,12 @@
+{
+  "slug": "health-score",
+  "name": "Müşteri Sağlık Skoru",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Risk skorlaması",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Müşteri Sağlık Skoru",
+    "route": "admin/health-score"
+  }
+}

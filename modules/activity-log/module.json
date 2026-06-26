@@ -1,0 +1,10 @@
+{
+  "slug": "activity-log",
+  "name": "Aktivite Logları",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Tüm işlemlerin loglanması. Kim, ne zaman, ne yaptı.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": { "title": "Aktivite Logları", "route": "admin/activity-log" }
+}

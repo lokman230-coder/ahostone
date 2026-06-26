@@ -1,0 +1,7 @@
+/* ahost-default active site theme */
+body.theme-ahost-default{--ao-primary:#2563eb;--ao-secondary:#0f172a;--theme-slug:"ahost-default";}
+body.theme-ahost-default .site-header{border-top:4px solid #2563eb;}
+body.theme-ahost-default .site-brand{color:#2563eb!important;}
+body.theme-ahost-default .site-btn, body.theme-ahost-default button, body.theme-ahost-default .ao-btn{background:linear-gradient(135deg,#2563eb,#0f172a);color:#fff;border-color:transparent;}
+body.theme-ahost-default a{color:#2563eb;}
+

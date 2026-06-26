@@ -1,0 +1,13 @@
+{
+  "slug": "email-templates",
+  "name": "E-posta Şablonları",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Profesyonel HTML e-posta şablonları. SMTP ayarları, değişkenler ve önizleme.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "E-posta Şablonları",
+    "route": "admin/email-templates"
+  }
+}

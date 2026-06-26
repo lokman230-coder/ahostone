@@ -1,0 +1,12 @@
+{
+  "slug": "domain-backorder",
+  "name": "Domain Backorder",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "到期 domain yakalama servisi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Domain Backorder",
+    "route": "admin/domain-backorder"
+  }
+}

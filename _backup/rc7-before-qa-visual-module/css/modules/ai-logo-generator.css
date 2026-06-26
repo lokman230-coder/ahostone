@@ -1,0 +1,7 @@
+/* AI Logo Generator Styles */
+.logo-generator { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.logo-preview { background: #f8fafc; border-radius: 16px; padding: 40px; text-align: center; min-height: 300px; display: flex; align-items: center; justify-content: center; }
+.logo-preview img { max-width: 100%; max-height: 250px; }
+.style-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0; }
+.style-option { padding: 16px; background: #fff; border: 2px solid #e2e8f0; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s; }
+.style-option:hover, .style-option.selected { border-color: #2563eb; background: #eff6ff; }

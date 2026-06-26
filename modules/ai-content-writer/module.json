@@ -1,0 +1,12 @@
+{
+  "slug": "ai-content-writer",
+  "name": "AI Content Writer",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Blog/ürün açıklaması üretici",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "AI İçerik",
+    "route": "admin/ai-content-writer"
+  }
+}

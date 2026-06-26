@@ -1,0 +1,4 @@
+/* Ahost One v25 RC5 compatibility wrapper.
+   Yeni ortak header CSS dosyası: public/assets/css/ao-unified-header.css
+   Eski ao-premium-header.css referansları bozulmasın diye bu dosya korunur. */
+@import url('ao-unified-header.css');

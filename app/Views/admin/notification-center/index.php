@@ -1,0 +1,8 @@
+<?php
+$events = table_count('notification_events');
+$templates = table_count('notification_templates');
+$logs = table_count('notification_logs');
+?>
+<div class="ao-admin-page-head"><div><span>Notification Center Final</span><h1>Bildirim Merkezi</h1><p>Mail, SMS, WhatsApp ve panel içi bildirim olaylarını tek merkezden yönetin.</p></div><a class="ao-btn" href="<?= url('admin/api-integrations') ?>">API Entegrasyonları</a></div>
+<div class="ao-admin-stat-grid"><div class="ao-admin-stat"><i>⚡</i><small>Bildirim Olayı</small><strong><?= $events ?></strong><span>Tetikleyici</span></div><div class="ao-admin-stat"><i>🧩</i><small>Şablon</small><strong><?= $templates ?></strong><span>Mesaj taslağı</span></div><div class="ao-admin-stat"><i>📨</i><small>Log</small><strong><?= $logs ?></strong><span>Gönderim kaydı</span></div></div>
+<div class="ao-admin-grid two"><section class="ao-admin-card"><h2>Mail / SMS / WhatsApp</h2><p>Fatura, domain, hosting, ticket ve build olayları için çok kanallı bildirim şablonları.</p><div class="ao-feature-list"><div>📧 E-posta</div><div>📱 SMS</div><div>💬 WhatsApp</div><div>🔔 Panel içi bildirim</div></div></section><section class="ao-admin-card"><h2>Olay Tetikleyicileri</h2><table class="ao-table"><thead><tr><th>Olay</th><th>Başlık</th><th>Kanal</th><th>Durum</th></tr></thead><tbody><tr><td>invoice.created</td><td>Fatura Oluşturuldu</td><td>mail,sms,whatsapp</td><td><span class="ao-badge">active</span></td></tr><tr><td>domain.expiring</td><td>Domain Yenileme</td><td>mail,sms</td><td><span class="ao-badge">active</span></td></tr></tbody></table></section></div>

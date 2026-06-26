@@ -1,0 +1,19 @@
+{
+  "name": "Marketplace Pro",
+  "slug": "marketplace",
+  "type": "commerce",
+  "version": "1.0.0",
+  "description": "Domain, hosting, web tasarım, SEO, logo, dijital içerik satış ve escrow modülü.",
+  "admin_menu": {
+    "title": "Marketplace",
+    "route": "admin/marketplace"
+  },
+  "requires": [
+    "commerce_core"
+  ],
+  "settings": [
+    {"key":"default_commission","label":"Varsayılan Komisyon %","type":"text","default":"5"},
+    {"key":"escrow_enabled","label":"Escrow Aktif","type":"checkbox","default":"1"},
+    {"key":"moderation_required","label":"İlan Onayı Zorunlu","type":"checkbox","default":"1"}
+  ]
+}

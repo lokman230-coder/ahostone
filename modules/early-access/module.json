@@ -1,0 +1,12 @@
+{
+  "slug": "early-access",
+  "name": "Early Access",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Yeni özellik ön erişimi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Erken Erişim",
+    "route": "admin/early-access"
+  }
+}

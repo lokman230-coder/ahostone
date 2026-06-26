@@ -1,0 +1,42 @@
+{
+  "name": "PayTR Payment Gateway",
+  "slug": "paytr",
+  "type": "payment",
+  "version": "1.0.0",
+  "description": "PayTR sanal POS ödeme modülü. Merchant ID, key, salt ve callback akışını yönetir.",
+  "admin_menu": {
+    "title": "PayTR",
+    "route": "admin/module-center/paytr"
+  },
+  "requires": [
+    "payment_core"
+  ],
+  "settings": [
+    {
+      "key": "merchant_id",
+      "label": "Merchant ID",
+      "type": "text"
+    },
+    {
+      "key": "merchant_key",
+      "label": "Merchant Key",
+      "type": "password",
+      "secret": true
+    },
+    {
+      "key": "merchant_salt",
+      "label": "Merchant Salt",
+      "type": "password",
+      "secret": true
+    },
+    {
+      "key": "webhook_secret",
+      "label": "Webhook Secret",
+      "type": "hidden",
+      "auto_generate": true,
+      "generator": "webhook_secret",
+      "readonly": true,
+      "secret": true
+    }
+  ]
+}

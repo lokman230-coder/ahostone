@@ -1,0 +1,1 @@
+-- Güvenli kaldırma: veri kaybını önlemek için tablo otomatik silinmez.

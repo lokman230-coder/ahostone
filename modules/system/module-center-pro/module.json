@@ -1,0 +1,20 @@
+{
+  "slug": "module-center-pro",
+  "name": "Module Center Pro",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Modül ZIP indirme, güncelleme, yedekleme ve rollback yönetimi.",
+  "settings": {
+    "enabled_help": {
+      "label": "Yardım Kılavuzu Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "api_key": {
+      "label": "API Key / Token",
+      "type": "password",
+      "secret": true,
+      "default": ""
+    }
+  }
+}

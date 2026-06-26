@@ -1,0 +1,12 @@
+{
+  "slug": "white-label-portal",
+  "name": "White Label Portal",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Partner markalı panel",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "White Label",
+    "route": "admin/white-label-portal"
+  }
+}

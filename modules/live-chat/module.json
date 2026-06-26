@@ -1,0 +1,34 @@
+{
+  "slug": "live-chat",
+  "name": "Canlı Destek Sohbet",
+  "type": "support",
+  "version": "1.0.0",
+  "description": "Canlı destek sohbet sistemi. WhatsApp, AI chatbot, departmanlı destek ve mesaj geçmişi.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "Canlı Destek",
+    "route": "admin/live-chat"
+  },
+  "settings": {
+    "whatsapp_number": {
+      "label": "WhatsApp Numarası",
+      "type": "text",
+      "default": ""
+    },
+    "auto_reply": {
+      "label": "Otomatik Yanıt",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "chat_position": {
+      "label": "Soğbet Kutusu Konumu",
+      "type": "select",
+      "options": {
+        "bottom-right": "Sağ Alt",
+        "bottom-left": "Sol Alt"
+      },
+      "default": "bottom-right"
+    }
+  }
+}

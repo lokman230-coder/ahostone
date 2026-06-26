@@ -1,0 +1,30 @@
+{
+  "slug": "resellerclub",
+  "name": "ResellerClub Registrar",
+  "type": "registrar",
+  "version": "1.0.0",
+  "description": "ResellerClub domain kayıt, transfer, yenileme ve DNS yönetimi.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "ResellerClub",
+    "route": "admin/domain-center/registrar/resellerclub"
+  },
+  "settings": {
+    "reseller_id": {
+      "label": "Reseller ID",
+      "type": "text",
+      "required": true
+    },
+    "api_key": {
+      "label": "API Key",
+      "type": "text",
+      "required": true
+    },
+    "test_mode": {
+      "label": "Test Modu",
+      "type": "checkbox",
+      "default": "1"
+    }
+  }
+}

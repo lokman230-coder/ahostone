@@ -1,0 +1,20 @@
+{
+  "slug": "support-widget-pro",
+  "name": "AI Destek Sohbet Pro",
+  "type": "support",
+  "version": "1.0.0",
+  "description": "WhatsApp/Ara/AI destek dizilimi, departmanlı sohbet ve ticket modülü.",
+  "settings": {
+    "enabled_help": {
+      "label": "Yardım Kılavuzu Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "api_key": {
+      "label": "API Key / Token",
+      "type": "password",
+      "secret": true,
+      "default": ""
+    }
+  }
+}

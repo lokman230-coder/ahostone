@@ -1,0 +1,7 @@
+/* ai-company active site theme */
+body.theme-ai-company{--ao-primary:#8b5cf6;--ao-secondary:#14b8a6;--theme-slug:"ai-company";}
+body.theme-ai-company .site-header{border-top:4px solid #8b5cf6;}
+body.theme-ai-company .site-brand{color:#8b5cf6!important;}
+body.theme-ai-company .site-btn, body.theme-ai-company button, body.theme-ai-company .ao-btn{background:linear-gradient(135deg,#8b5cf6,#14b8a6);color:#fff;border-color:transparent;}
+body.theme-ai-company a{color:#8b5cf6;}
+

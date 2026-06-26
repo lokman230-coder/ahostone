@@ -1,0 +1,55 @@
+{
+  "name": "Shopier Payment Gateway",
+  "slug": "shopier",
+  "type": "payment",
+  "version": "1.0.0",
+  "description": "Shopier ödeme başlatma, callback ve ödeme logları için modül.",
+  "admin_menu": {
+    "title": "Shopier",
+    "route": "admin/module-center/shopier"
+  },
+  "requires": [
+    "payment_core"
+  ],
+  "settings": [
+    {
+      "key": "api_key",
+      "label": "Shopier API Key",
+      "type": "password",
+      "secret": true,
+      "placeholder": "Shopier API Key"
+    },
+    {
+      "key": "api_secret",
+      "label": "Shopier API Secret",
+      "type": "password",
+      "secret": true,
+      "placeholder": "Shopier API Secret"
+    },
+    {
+      "key": "callback_url",
+      "label": "Callback URL",
+      "type": "text",
+      "readonly": true,
+      "default": "/payment/shopier/callback",
+      "help": "Site adresiniz ile birlikte Shopier paneline girilecek callback adresi."
+    },
+    {
+      "key": "callback_secret",
+      "label": "Callback Secret",
+      "type": "hidden",
+      "auto_generate": true,
+      "generator": "random_64",
+      "readonly": true,
+      "secret": true,
+      "help": "Callback/webhook güvenlik anahtarı. İlk aktivasyonda otomatik oluşur."
+    },
+    {
+      "key": "test_mode",
+      "label": "Test Modu",
+      "type": "checkbox",
+      "default": "0",
+      "help": "Test ortamı için açılabilir."
+    }
+  ]
+}

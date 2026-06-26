@@ -1,0 +1,9 @@
+<section class="ao-site-content ao-service-landing-page"><div class="ao-content-shell">
+  <div class="ao-content-hero"><span class="ao-content-kicker">Mobil Uygulama Hizmetleri</span><h1>Android ve iOS projeleri için uçtan uca çözüm.</h1><p>Kurumsal uygulama, e-ticaret, randevu, radyo, haber, eğitim ve özel mobil uygulama projeleri için tasarım, geliştirme ve yayın desteği.</p><div class="ao-content-actions"><a class="ao-content-btn" href="<?= url('client/register') ?>">Teklif / Sipariş Başlat</a><a class="ao-content-btn secondary" href="<?= url('dijital-hizmetler') ?>">Dijital Hizmetler</a></div></div>
+  <div class="ao-content-grid ">
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">🤖</div><h3>Android Uygulama</h3><p>APK/AAB, Play Store hazırlığı ve panel bağlantılı uygulamalar.</p><a class="ao-content-btn secondary" href="<?= url('client/register') ?>">Başvur →</a></article>
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">🍎</div><h3>iOS Uygulama</h3><p>Apple ekosistemi için tasarım, geliştirme ve teslim süreçleri.</p><a class="ao-content-btn secondary" href="<?= url('client/register') ?>">Detay al →</a></article>
+      <article class="ao-content-card ao-service-card"><div class="ao-content-list-icon">⚙️</div><h3>Özel Yazılım</h3><p>API, admin panel, bildirim, ödeme ve entegrasyon çözümleri.</p><a class="ao-content-btn secondary" href="<?= url('dijital-hizmetler') ?>">Dijital hizmetler →</a></article>
+  </div>
+  <div class="ao-content-cta"><h2>Projenizi Ahost One ekosistemine taşıyın</h2><p>Domain, hosting, ürün, teklif, müşteri paneli ve destek süreçleri aynı tasarım diliyle çalışır.</p><div class="ao-content-actions"><a class="ao-content-btn" href="<?= url('teklif') ?>">Teklif Al</a><a class="ao-content-btn secondary" href="<?= url('urunler') ?>">Ürünleri Gör</a></div></div>
+</div></section>

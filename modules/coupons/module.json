@@ -1,0 +1,1 @@
+{"slug":"coupons","name":"Kupon Sistemi","type":"marketing","version":"1.0.0","description":"İndirim kodu ve kampanya yönetimi.","author":"Ahost One","admin_menu":{"title":"Kuponlar","route":"admin/coupons"}}

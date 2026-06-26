@@ -1,0 +1,12 @@
+{
+  "slug": "lifetime-commission",
+  "name": "Lifetime Commission",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Müşteri ömrü boyunca komisyon",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Lifetime Komisyon",
+    "route": "admin/lifetime-commission"
+  }
+}

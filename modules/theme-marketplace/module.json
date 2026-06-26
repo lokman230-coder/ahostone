@@ -1,0 +1,42 @@
+{
+  "slug": "theme-marketplace",
+  "name": "Theme Marketplace Pro",
+  "type": "extension",
+  "version": "2.0.0",
+  "description": "Admin temaları ve landing page sablonlari - ZIP yukleme, lisans, guncelleme ve komisyon sistemi",
+  "author": "Ahost One",
+  "category": "commerce",
+  "icon": "fa-palette",
+  "price": 0,
+  "features": [
+    "Tema/Şablon Yukleme",
+    "Lisans Dogrulama",
+    "Guncelleme Sistemi",
+    "%15 Komisyon Kesme",
+    "Satici Kazanc Takibi",
+    "Tek Domain Lisansi",
+    "Acik Kaynak Kod Lisansi",
+    "Paket Sistemi (Paket 1, Paket 2)"
+  ],
+  "license_types": [
+    {"id": "single_domain", "name": "Tek Domain Lisansi", "description": "Bir domain icin", "price_factor": 1},
+    {"id": "open_source", "name": "Acik Kaynak Kod", "description": "Sinirsiz kullanım", "price_factor": 2.5}
+  ],
+  "packages": [
+    {"id": "basic", "name": "Paket 1 - Temel", "description": "Temel ozellikler", "price_multiplier": 1},
+    {"id": "pro", "name": "Paket 2 - Profesyonel", "description": "Tum ozellikler", "price_multiplier": 2}
+  ],
+  "admin_menu": {
+    "title": "Tema Marketplace",
+    "route": "admin/theme-marketplace"
+  },
+  "user_menu": {
+    "title": "Tema Marketplace",
+    "route": "musteri/theme-marketplace"
+  },
+  "settings": [
+    {"key": "commission_rate", "label": "Komisyon Orani (%)", "type": "number", "default": "15"},
+    {"key": "require_approval", "label": "Onay Zorunlu", "type": "checkbox", "default": "1"},
+    {"key": "max_file_size", "label": "Maks Dosya (MB)", "type": "number", "default": "100"}
+  ]
+}

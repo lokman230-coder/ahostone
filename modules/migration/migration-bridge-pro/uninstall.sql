@@ -1,0 +1,7 @@
+-- Güvenli kaldırma: import geçmişi veri kaybını önlemek için otomatik silinmez.
+-- İsterseniz aşağıdaki satırları manuel çalıştırabilirsiniz.
+-- DROP TABLE IF EXISTS module_migration_bridge_logs;
+-- DROP TABLE IF EXISTS module_migration_bridge_maps;
+-- DROP TABLE IF EXISTS module_migration_bridge_items;
+-- DROP TABLE IF EXISTS module_migration_bridge_scans;
+-- DROP TABLE IF EXISTS module_migration_bridge_connections;

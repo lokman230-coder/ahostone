@@ -1,0 +1,25 @@
+RC20 tarama özeti
+==================
+Baz: RC14 admin-public-component-rebuild fresh-install paketi.
+Kaynak: RC19 full-version-sync paketi.
+
+Strateji:
+- RC14 public/site görünümü korundu.
+- RC19'dan sadece SiteBuilder/MobileBuilder preview dosyaları, radyo stream player JS'i ve version/install senkron düzeltmeleri seçilerek taşındı.
+- RC19'un geniş public CSS/layout rewrite bloğu taşınmadı.
+- Ortak ürün/hizmet/marketplace/site ana sayfa görünümüne dokunulmadı.
+
+Düzeltilen kritik konular:
+- install.php artık RC5 config üretmez.
+- config/config.php ve config/config.example.php asset_version 25.0.0-rc20 üretir.
+- fresh-install.sql ahost_version 25.0.0-rc20 içerir.
+- index.php runtime ahost_version değerlerini eski 9.x / 12.x / 14.x / 18.x değerlere düşürmez; RC20 yazar.
+- MobileBuilder radyo preview içinde play tuşu Stream URL değerinden gerçek audio source üretir.
+- HTTP stream HTTPS sayfada uyarı verir.
+- Audio error/CORS/codec hatalarında görsel durum mesajı gösterilir.
+
+Veri güvenliği:
+- Yeni migration yok.
+- Canlı veri silme/yazma amaçlı seed yok.
+- Güncelleme file-only mantığındadır.
+- Canlı sistemde install.php çalıştırılmamalıdır.

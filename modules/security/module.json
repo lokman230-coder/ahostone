@@ -1,0 +1,13 @@
+{
+  "slug": "security",
+  "name": "2FA Güvenlik",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Admin ve müşteri paneli için TOTP tabanlı iki faktörlü kimlik doğrulama.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "2FA Güvenlik",
+    "route": "admin/2fa"
+  }
+}

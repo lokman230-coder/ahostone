@@ -1,0 +1,12 @@
+{
+  "slug": "domain-parking",
+  "name": "Domain Parking",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Satılık domainler için landing page",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Domain Parking",
+    "route": "admin/domain-parking"
+  }
+}

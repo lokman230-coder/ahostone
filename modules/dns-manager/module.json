@@ -1,0 +1,12 @@
+{
+  "slug": "dns-manager",
+  "name": "DNS Manager",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Gelişmiş DNS kontrol paneli",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "DNS Yönetimi",
+    "route": "admin/dns-manager"
+  }
+}

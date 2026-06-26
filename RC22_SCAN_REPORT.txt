@@ -1,0 +1,22 @@
+RC22 scan / merge report
+=========================
+Base package: RC21 auth/header polish.
+Reference package: RC10 premium SaaS UI rebuild.
+
+User instruction: take only RC10 left sidebar. Do not take RC10 settings/product-group tabs or admin content.
+
+Changed files:
+- app/Views/admin/partials/header.php
+- public/assets/css/ao-full-ui-reset.css
+- config/config.php
+- config/config.example.php
+- install.php
+- database/fresh-install.sql
+- README.md
+- V25_RC22_ADMIN_SIDEBAR_RC10_ONLY.md
+
+Safety:
+- No SQL migration added.
+- No seed/demo data applied.
+- No controller/business logic merged from RC10.
+- Admin body/content pages preserved from RC21.

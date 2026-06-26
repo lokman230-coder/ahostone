@@ -1,0 +1,1 @@
+{"slug":"subscription","name":"Abonelik Sistemi","type":"billing","version":"1.0.0","description":"Otomatik aylık/yıllık yenileme ve subscription billing.","author":"Ahost One","admin_menu":{"title":"Abonelikler","route":"admin/subscriptions"}}

@@ -1,0 +1,12 @@
+{
+  "slug": "ai-logo-generator",
+  "name": "AI Logo Generator",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "OpenAI ile logo tasarımı",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "AI Logo",
+    "route": "admin/ai-logo-generator"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "churn-prediction",
+  "name": "Churn Prediction",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Ayrılma riski tahmini",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Risk Analizi",
+    "route": "admin/churn-prediction"
+  }
+}

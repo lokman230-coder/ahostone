@@ -1,0 +1,148 @@
+/* Ahost One v22 Premium SaaS Admin Fix */
+html,body{margin:0!important;min-height:100%!important;overflow-x:hidden!important}body[data-app=admin]{background:#f6f8fc!important}.ao-admin{display:flex!important;width:100%!important;min-height:100vh!important;align-items:stretch!important}.ao-sidebar{width:268px!important;min-width:268px!important;max-width:268px!important;left:auto!important}.ao-main{flex:1 1 auto!important;min-width:0!important;width:calc(100% - 268px)!important;overflow:hidden!important}.ao-content{padding:24px!important;max-width:none!important;width:100%!important;box-sizing:border-box!important}.ao-saas-topbar{height:74px!important;padding:0 24px!important;gap:14px!important}.ao-saas-topbar h1{display:none!important}.ao-saas-menu{display:flex!important;align-items:center!important;gap:6px!important;min-width:0!important;overflow-x:auto!important;white-space:nowrap!important;flex:1 1 auto!important}.ao-saas-menu a{display:inline-flex!important;align-items:center!important;gap:7px!important;padding:10px 11px!important;border-radius:12px!important;text-decoration:none!important;color:#0f1f46!important;font-weight:850!important;font-size:13px!important}.ao-saas-menu a:hover{background:#eef4ff!important;color:#155eef!important}.ao-admin-search{margin-left:0!important;flex:0 0 auto!important}.ao-admin-search input{width:210px!important}.ao-top-actions{flex:0 0 auto!important}.setup-wizard-modal{position:fixed!important;inset:auto 24px 24px auto!important;z-index:80!important;max-width:390px!important}.setup-wizard-modal-card{background:#fff!important;border:1px solid #dbe7ff!important;border-radius:18px!important;box-shadow:0 24px 70px rgba(15,23,42,.18)!important;padding:18px!important}.setup-wizard-modal .eyebrow{display:inline-flex!important;background:#eef4ff!important;color:#155eef!important;border-radius:999px!important;padding:5px 10px!important;font-weight:900!important;font-size:12px!important}.setup-wizard-modal h3{margin:10px 0 8px!important}.setup-wizard-modal p{margin:0 0 14px!important;color:#667085!important}.setup-wizard-modal-actions{display:flex!important;gap:8px!important;flex-wrap:wrap!important}.v22-hero{display:flex!important;justify-content:space-between!important;align-items:center!important;gap:20px!important;padding:24px 26px!important;margin-bottom:18px!important;background:linear-gradient(135deg,#ffffff 0%,#eef4ff 55%,#f4efff 100%)!important}.v22-hero h2{font-size:30px!important;margin:10px 0 8px!important;letter-spacing:-.03em!important}.v22-hero p{margin:0!important;color:#5b667a!important;font-weight:600!important}.v22-pill{display:inline-flex;background:#e8f1ff;color:#155eef;border:1px solid #bfdbfe;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.v22-hero-actions{display:flex;gap:10px;flex-wrap:wrap}.v22-kpi-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px!important;margin-bottom:18px!important}.v22-kpi{display:grid!important;grid-template-columns:48px 1fr!important;grid-template-areas:'ico small' 'ico strong' 'ico link'!important;gap:2px 13px!important;padding:18px!important;align-items:center!important}.v22-kpi i{grid-area:ico;width:48px;height:48px;display:grid;place-items:center;border-radius:16px;background:#eef4ff;font-style:normal;font-size:22px}.v22-kpi small{grid-area:small;color:#667085;font-weight:850}.v22-kpi strong{grid-area:strong;font-size:25px;color:#0f172a}.v22-kpi a{grid-area:link;color:#155eef;text-decoration:none;font-weight:850;font-size:12px}.v22-main-grid{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,.95fr) 320px!important;gap:16px!important;margin-bottom:16px!important}.v22-bottom-grid{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 320px!important;gap:16px!important}.v22-panel{padding:19px!important;min-width:0!important;overflow:hidden!important}.v22-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.v22-panel-head h3,.v22-market h3{margin:0;font-size:17px}.v22-panel-head a{font-weight:850;color:#155eef;text-decoration:none;font-size:13px}.v22-market{background:linear-gradient(135deg,#091733,#1e3a8a 55%,#5b21b6)!important;color:#fff!important}.v22-market p{color:#dbeafe!important}.v22-market div{display:flex;gap:10px;flex-wrap:wrap}.v22-mini-stats{display:grid;gap:11px}.v22-mini-stats span{display:flex;justify-content:space-between;border:1px solid #eef2f7;border-radius:14px;padding:13px;color:#475467;font-weight:800}.v22-mini-stats b{color:#0f172a}.v21-table{min-width:100%!important}.v21-quick{grid-template-columns:repeat(2,minmax(0,1fr))!important}.v21-quick a{box-sizing:border-box!important}.ao-sidebar .ao-brand{background:linear-gradient(135deg,rgba(47,115,255,.22),rgba(124,58,237,.20))!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:22px!important;padding:13px!important;height:auto!important;margin-bottom:16px!important}.ao-nav .nav-label{margin-top:16px!important}.ao-nav .nav-group>a{border:1px solid rgba(255,255,255,.08)!important;background:rgba(255,255,255,.035)!important}.ao-nav .nav-group>div a{font-size:12.5px!important}.ao-nav:before{content:'SAAS PLATFORM';display:block;color:#7dd3fc;font-size:10px;font-weight:950;letter-spacing:.18em;margin:0 9px 10px}.ao-powered{position:sticky;bottom:0;background:linear-gradient(180deg,transparent,#081323 25%)!important}
+@media(max-width:1400px){.ao-saas-menu a{font-size:12px;padding:9px 8px!important}.ao-admin-search{display:none!important}.v22-main-grid,.v22-bottom-grid{grid-template-columns:1fr 1fr!important}.v22-quick-card{grid-column:1/-1}.v22-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:900px){.ao-sidebar{position:fixed!important;left:-280px!important}.sidebar-open .ao-sidebar{left:0!important}.ao-main{width:100%!important}.ao-saas-menu{display:none!important}.v22-hero{display:block!important}.v22-kpi-grid,.v22-main-grid,.v22-bottom-grid{grid-template-columns:1fr!important}.setup-wizard-modal{left:16px!important;right:16px!important;bottom:16px!important;max-width:none!important}}
+
+/* v22.0.1 Compact SaaS Layout Fix - fazla boşluk ve önceki CSS margin çakışmaları */
+body[data-app=admin] .ao-admin{
+  display:flex!important;
+  grid-template-columns:none!important;
+  gap:0!important;
+}
+body[data-app=admin] .ao-sidebar{
+  position:sticky!important;
+  top:0!important;
+  width:248px!important;
+  min-width:248px!important;
+  max-width:248px!important;
+  padding:14px 10px!important;
+}
+body[data-app=admin] .ao-main{
+  margin-left:0!important;
+  flex:1 1 auto!important;
+  width:calc(100% - 248px)!important;
+  min-width:0!important;
+  background:#f6f8fc!important;
+}
+body[data-app=admin] .ao-content{
+  padding:16px 18px!important;
+  margin:0!important;
+  max-width:none!important;
+  width:100%!important;
+}
+body[data-app=admin] .ao-saas-topbar{
+  height:62px!important;
+  min-height:62px!important;
+  padding:0 16px!important;
+  gap:10px!important;
+}
+body[data-app=admin] .ao-saas-menu{
+  flex:1 1 auto!important;
+  max-width:none!important;
+  overflow-x:auto!important;
+  scrollbar-width:thin!important;
+}
+body[data-app=admin] .ao-saas-menu a{
+  padding:8px 9px!important;
+  font-size:12px!important;
+  border-radius:10px!important;
+}
+body[data-app=admin] .ao-admin-search input{
+  width:260px!important;
+  height:38px!important;
+}
+body[data-app=admin] .ao-admin-search button,
+body[data-app=admin] .ao-top-actions a,
+body[data-app=admin] .ao-top-actions span{
+  height:38px!important;
+}
+body[data-app=admin] .v22-hero{
+  padding:18px 22px!important;
+  margin-bottom:14px!important;
+  border-radius:20px!important;
+}
+body[data-app=admin] .v22-hero h2{
+  font-size:26px!important;
+  margin:8px 0 6px!important;
+}
+body[data-app=admin] .v22-hero p{
+  max-width:720px!important;
+  line-height:1.35!important;
+}
+body[data-app=admin] .v22-kpi-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:12px!important;
+  margin-bottom:14px!important;
+}
+body[data-app=admin] .v22-kpi{
+  padding:14px 16px!important;
+  border-radius:18px!important;
+  grid-template-columns:42px 1fr!important;
+  gap:1px 11px!important;
+}
+body[data-app=admin] .v22-kpi i{
+  width:42px!important;
+  height:42px!important;
+  border-radius:14px!important;
+  font-size:19px!important;
+}
+body[data-app=admin] .v22-kpi strong{
+  font-size:23px!important;
+}
+body[data-app=admin] .v22-main-grid{
+  grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) 300px!important;
+  gap:14px!important;
+  margin-bottom:14px!important;
+}
+body[data-app=admin] .v22-bottom-grid{
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) 300px!important;
+  gap:14px!important;
+}
+body[data-app=admin] .v22-panel{
+  padding:16px!important;
+  border-radius:18px!important;
+}
+body[data-app=admin] .ao-card,
+body[data-app=admin] .u2-card,
+body[data-app=admin] .premium-card{
+  margin-bottom:14px!important;
+}
+body[data-app=admin] .ao-brand{
+  border-radius:18px!important;
+  padding:11px!important;
+  margin-bottom:12px!important;
+}
+body[data-app=admin] .ao-nav a,
+body[data-app=admin] .ao-nav .nav-group>a{
+  min-height:34px!important;
+  padding:8px 10px!important;
+  font-size:13px!important;
+  border-radius:10px!important;
+}
+body[data-app=admin] .ao-nav .nav-label{
+  margin-top:12px!important;
+}
+body[data-app=admin] .ao-powered{
+  padding:10px 0!important;
+}
+@media(max-width:1400px){
+  body[data-app=admin] .ao-sidebar{width:236px!important;min-width:236px!important;max-width:236px!important}
+  body[data-app=admin] .ao-main{width:calc(100% - 236px)!important;margin-left:0!important}
+  body[data-app=admin] .v22-main-grid,body[data-app=admin] .v22-bottom-grid{grid-template-columns:1fr 1fr!important}
+  body[data-app=admin] .v22-quick-card{grid-column:1/-1!important}
+}
+@media(max-width:900px){
+  body[data-app=admin] .ao-sidebar{position:fixed!important;left:-260px!important;width:248px!important;min-width:248px!important;max-width:248px!important}
+  body[data-app=admin].sidebar-open .ao-sidebar{left:0!important}
+  body[data-app=admin] .ao-main{width:100%!important;margin-left:0!important}
+  body[data-app=admin] .ao-content{padding:12px!important}
+}
+
+/* v22.0.2: fixed admin shell + license product actions */
+body[data-app=admin] .ao-admin{display:block!important;min-height:100vh!important;background:#f6f8fc!important;}
+body[data-app=admin] .ao-sidebar{position:fixed!important;left:0!important;top:0!important;bottom:0!important;height:100vh!important;overflow-y:auto!important;overscroll-behavior:contain!important;z-index:40!important;}
+body[data-app=admin] .ao-main{margin-left:248px!important;width:calc(100% - 248px)!important;min-height:100vh!important;}
+body[data-app=admin] .ao-powered{position:sticky!important;bottom:0!important;background:linear-gradient(180deg,rgba(7,21,47,.65),#07152f)!important;border-top:1px solid rgba(255,255,255,.08)!important;}
+.license-product-list{display:grid;gap:10px}.license-product-row{border:1px solid #e5eaf3;border-radius:16px;background:#f8fbff;overflow:hidden}.license-product-row summary{cursor:pointer;display:grid;grid-template-columns:70px minmax(0,1fr) 170px 110px 90px;gap:14px;align-items:center;padding:14px 16px;list-style:none}.license-product-row summary::-webkit-details-marker{display:none}.license-product-row summary b{font-size:15px}.license-product-row summary em{font-style:normal;color:#475569}.license-product-row summary mark{background:#dcfce7;color:#166534;border-radius:999px;padding:5px 10px;text-align:center;font-weight:800}.license-product-row summary small{color:#2563eb;font-weight:900}.license-product-form{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:12px;padding:0 16px 16px}.license-product-form label{font-weight:800;color:#334155}.license-product-form input,.license-product-form select,.license-product-form textarea{width:100%;border:1px solid #dbe3ef;border-radius:12px;padding:10px;background:#fff}.license-product-form .wide{grid-column:1/-1}.license-actions{grid-column:1/-1}.license-delete-form{padding:0 16px 16px}.ao-btn.danger{background:#ef4444!important;color:#fff!important}.ao-btn.danger:hover{background:#dc2626!important}
+@media(max-width:1400px){body[data-app=admin] .ao-main{margin-left:236px!important;width:calc(100% - 236px)!important}}
+@media(max-width:900px){body[data-app=admin] .ao-sidebar{left:-260px!important}body[data-app=admin].sidebar-open .ao-sidebar{left:0!important}body[data-app=admin] .ao-main{margin-left:0!important;width:100%!important}.license-product-row summary,.license-product-form{grid-template-columns:1fr}.license-product-row summary{gap:6px}}

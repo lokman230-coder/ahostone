@@ -1,0 +1,55 @@
+
+/* Ahost One v24.3.1 - Customer Panel Premium Completion */
+body[data-app="client"]{background:#f3f7fc!important;color:#0f172a!important;font-family:Inter,Arial,sans-serif!important}
+body[data-app="client"] .customer-main{padding:28px 32px 150px!important}
+body[data-app="client"] .customer-panel-card,body[data-app="client"] .client-card{
+  background:#fff!important;border:1px solid #e5edf8!important;border-radius:28px!important;padding:28px!important;
+  box-shadow:0 22px 55px rgba(15,23,42,.07)!important;overflow:hidden!important
+}
+body[data-app="client"] .e-client-hero{display:grid!important;grid-template-columns:minmax(0,1.6fr) minmax(280px,.65fr)!important;gap:22px!important;margin-bottom:22px!important}
+body[data-app="client"] .e-client-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px!important;margin:22px 0!important}
+body[data-app="client"] .e-kpi{min-height:154px!important;display:flex!important;flex-direction:column!important;justify-content:space-between!important;padding:22px!important}
+body[data-app="client"] .e-kpi .meta{display:flex!important;justify-content:space-between!important;align-items:center!important;color:#64748b!important;font-weight:900!important;gap:10px!important}
+body[data-app="client"] .e-kpi .meta i{width:50px!important;height:50px!important;border-radius:16px!important;background:#eef6ff!important;display:grid!important;place-items:center!important;font-style:normal!important;font-size:24px!important}
+body[data-app="client"] .e-kpi strong{font-size:44px!important;line-height:1!important;letter-spacing:-.06em!important}
+body[data-app="client"] .e-kpi small{font-size:14px!important;color:#2563eb!important;font-weight:900!important}
+body[data-app="client"] .e-customer-layout{display:grid!important;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr)!important;gap:22px!important}
+body[data-app="client"] .button-row{display:flex!important;flex-wrap:wrap!important;gap:12px!important;margin-top:18px!important}
+body[data-app="client"] .u2-btn,body[data-app="client"] .cp-btn,body[data-app="client"] .customer-action{
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:50px!important;padding:0 20px!important;border-radius:16px!important;
+  background:linear-gradient(135deg,#2563eb,#7c3aed,#06b6d4)!important;color:#fff!important;text-decoration:none!important;font-weight:900!important;border:0!important
+}
+body[data-app="client"] .u2-btn.soft,body[data-app="client"] .cp-btn.soft{background:#eef6ff!important;color:#1d4ed8!important;border:1px solid #dce9fb!important}
+body[data-app="client"] .u2-btn.dark,body[data-app="client"] .cp-btn.dark{background:#0f172a!important;color:#fff!important}
+body[data-app="client"] .e-balance{display:flex!important;flex-direction:column!important;gap:14px!important}
+body[data-app="client"] .e-balance span{color:#64748b!important;font-weight:900!important}
+body[data-app="client"] .e-balance strong{font-size:40px!important;letter-spacing:-.06em!important}
+body[data-app="client"] .renewal-card,body[data-app="client"] .auto-renew-card{margin:22px 0!important}
+body[data-app="client"] .renewal-row{display:flex!important;justify-content:space-between!important;align-items:center!important;gap:16px!important;padding:18px!important;border:1px solid #e6eefb!important;border-radius:20px!important;background:linear-gradient(180deg,#fff,#f9fbff)!important;margin:12px 0!important}
+body[data-app="client"] .renewal-row-main{display:flex!important;align-items:center!important;gap:14px!important}
+body[data-app="client"] .renewal-icon{width:48px!important;height:48px!important;border-radius:16px!important;background:#eef6ff!important;display:grid!important;place-items:center!important}
+body[data-app="client"] .renewal-meta{display:flex!important;gap:8px!important;flex-wrap:wrap!important;color:#64748b!important;font-size:14px!important;margin-top:4px!important}
+body[data-app="client"] .renewal-actions{display:flex!important;align-items:center!important;gap:10px!important}
+body[data-app="client"] .u2-pill,body[data-app="client"] .renewal-pill{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:30px!important;padding:0 12px!important;border-radius:999px!important;font-weight:900!important;font-size:13px!important;background:#eef6ff!important;color:#1d4ed8!important}
+body[data-app="client"] .badge-danger{background:#fee2e2!important;color:#991b1b!important}
+body[data-app="client"] .badge-warn,.u2-pill.orange{background:#ffedd5!important;color:#9a3412!important}
+body[data-app="client"] .badge-ok,.u2-pill.green{background:#dcfce7!important;color:#166534!important}
+body[data-app="client"] .client-grid.two{display:grid!important;grid-template-columns:1fr 1fr!important;gap:22px!important}
+body[data-app="client"] .client-form,body[data-app="client"] .ao-form{display:grid!important;gap:14px!important}
+body[data-app="client"] input,body[data-app="client"] select,body[data-app="client"] textarea{border:1px solid #dbe7f6!important;border-radius:16px!important;min-height:48px!important;padding:0 14px!important}
+body[data-app="client"] table{width:100%!important;border-collapse:separate!important;border-spacing:0 8px!important}
+body[data-app="client"] td,body[data-app="client"] th{padding:14px!important;background:#f8fbff!important}
+body[data-app="client"] .premium-detail-hero{display:grid!important;grid-template-columns:1fr auto!important;gap:18px!important;align-items:center!important;background:radial-gradient(circle at 20% 0,rgba(37,99,235,.16),transparent 35%),linear-gradient(135deg,#fff,#f8fbff)!important}
+body[data-app="client"] .payment-panel{display:grid!important;grid-template-columns:1fr 1fr!important;gap:18px!important}
+@media(max-width:1100px){
+ body[data-app="client"] .e-client-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ body[data-app="client"] .e-client-hero,body[data-app="client"] .e-customer-layout,body[data-app="client"] .client-grid.two,body[data-app="client"] .payment-panel{grid-template-columns:1fr!important}
+}
+@media(max-width:620px){
+ body[data-app="client"] .customer-main{padding:18px 16px 130px!important}
+ body[data-app="client"] .customer-panel-card,body[data-app="client"] .client-card{border-radius:22px!important;padding:20px!important}
+ body[data-app="client"] .e-client-grid{grid-template-columns:1fr!important}
+ body[data-app="client"] .renewal-row{align-items:flex-start!important;flex-direction:column!important}
+ body[data-app="client"] .renewal-actions{width:100%!important;justify-content:space-between!important}
+ body[data-app="client"] .button-row{display:grid!important;grid-template-columns:1fr!important}
+}

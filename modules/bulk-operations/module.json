@@ -1,0 +1,12 @@
+{
+  "slug": "bulk-operations",
+  "name": "Toplu İşlemler",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Toplu fatura, email, export",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Toplu İşlemler",
+    "route": "admin/bulk-operations"
+  }
+}

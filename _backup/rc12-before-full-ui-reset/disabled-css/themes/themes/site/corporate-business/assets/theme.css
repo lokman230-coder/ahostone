@@ -1,0 +1,7 @@
+/* corporate-business active site theme */
+body.theme-corporate-business{--ao-primary:#334155;--ao-secondary:#c59f45;--theme-slug:"corporate-business";}
+body.theme-corporate-business .site-header{border-top:4px solid #334155;}
+body.theme-corporate-business .site-brand{color:#334155!important;}
+body.theme-corporate-business .site-btn, body.theme-corporate-business button, body.theme-corporate-business .ao-btn{background:linear-gradient(135deg,#334155,#c59f45);color:#fff;border-color:transparent;}
+body.theme-corporate-business a{color:#334155;}
+

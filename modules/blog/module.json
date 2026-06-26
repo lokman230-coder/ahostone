@@ -1,0 +1,31 @@
+{
+  "slug": "blog",
+  "name": "Blog Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "SEO uyumlu blog sistemi. Kategori, etiket, yorum, yazar profili ve sosyal paylaşım özellikleri.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "install_sql": "install.sql",
+  "admin_menu": {
+    "title": "Blog",
+    "route": "admin/blog"
+  },
+  "settings": {
+    "blog_name": {
+      "label": "Blog Adı",
+      "type": "text",
+      "default": "Ahost One Blog"
+    },
+    "posts_per_page": {
+      "label": "Sayfa Başına Yazı",
+      "type": "number",
+      "default": "10"
+    },
+    "comments_moderation": {
+      "label": "Yorum Moderasyonu",
+      "type": "checkbox",
+      "default": "1"
+    }
+  }
+}

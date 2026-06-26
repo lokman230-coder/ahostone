@@ -1,0 +1,7 @@
+/* cloud-pro active site theme */
+body.theme-cloud-pro{--ao-primary:#0284c7;--ao-secondary:#22c55e;--theme-slug:"cloud-pro";}
+body.theme-cloud-pro .site-header{border-top:4px solid #0284c7;}
+body.theme-cloud-pro .site-brand{color:#0284c7!important;}
+body.theme-cloud-pro .site-btn, body.theme-cloud-pro button, body.theme-cloud-pro .ao-btn{background:linear-gradient(135deg,#0284c7,#22c55e);color:#fff;border-color:transparent;}
+body.theme-cloud-pro a{color:#0284c7;}
+

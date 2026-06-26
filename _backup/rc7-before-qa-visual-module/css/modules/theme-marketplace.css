@@ -1,0 +1,7 @@
+/* Theme Marketplace Styles */
+.theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+.theme-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; transition: all 0.3s; }
+.theme-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.1); }
+.theme-preview { height: 180px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 3rem; }
+.theme-info { padding: 20px; }
+.theme-price { font-size: 1.5rem; font-weight: bold; color: #2563eb; }

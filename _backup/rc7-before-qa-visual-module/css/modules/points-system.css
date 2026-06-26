@@ -1,0 +1,10 @@
+/* Points System Styles */
+.points-balance { background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%); color: #fff; border-radius: 20px; padding: 32px; text-align: center; margin-bottom: 24px; }
+.points-value { font-size: 3rem; font-weight: bold; }
+.points-label { opacity: 0.9; }
+.levels-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.level-card { background: #fff; border-radius: 16px; padding: 24px; text-align: center; border: 2px solid #e2e8f0; }
+.level-card.current { border-color: #2563eb; background: #eff6ff; }
+.level-icon { font-size: 2.5rem; margin-bottom: 12px; }
+.level-name { font-weight: bold; margin-bottom: 4px; }
+.level-points { color: #64748b; font-size: 0.9rem; }

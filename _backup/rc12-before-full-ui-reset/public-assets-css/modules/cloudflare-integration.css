@@ -1,0 +1,3 @@
+/* CloudFlare Styles */
+.cf-zone { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+.cf-dns-record { display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 16px; padding: 12px; background: #f8fafc; border-radius: 8px; margin-bottom: 8px; }

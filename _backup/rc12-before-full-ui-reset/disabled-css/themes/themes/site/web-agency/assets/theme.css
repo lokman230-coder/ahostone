@@ -1,0 +1,7 @@
+/* web-agency active site theme */
+body.theme-web-agency{--ao-primary:#ec4899;--ao-secondary:#3b82f6;--theme-slug:"web-agency";}
+body.theme-web-agency .site-header{border-top:4px solid #ec4899;}
+body.theme-web-agency .site-brand{color:#ec4899!important;}
+body.theme-web-agency .site-btn, body.theme-web-agency button, body.theme-web-agency .ao-btn{background:linear-gradient(135deg,#ec4899,#3b82f6);color:#fff;border-color:transparent;}
+body.theme-web-agency a{color:#ec4899;}
+

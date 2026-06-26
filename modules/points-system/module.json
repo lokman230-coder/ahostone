@@ -1,0 +1,12 @@
+{
+  "slug": "points-system",
+  "name": "Puan Sistemi",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Puan biriktirme, seviye sistemi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Puanlar",
+    "route": "admin/points-system"
+  }
+}

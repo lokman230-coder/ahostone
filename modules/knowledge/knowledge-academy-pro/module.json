@@ -1,0 +1,20 @@
+{
+  "slug": "knowledge-academy-pro",
+  "name": "Bilgi Bankası & Akademi Pro",
+  "type": "knowledge",
+  "version": "1.0.0",
+  "description": "Müşteri/admin bilgi bankası, SEO makale üretimi ve medya optimizasyon modülü.",
+  "settings": {
+    "enabled_help": {
+      "label": "Yardım Kılavuzu Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "api_key": {
+      "label": "API Key / Token",
+      "type": "password",
+      "secret": true,
+      "default": ""
+    }
+  }
+}

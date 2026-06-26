@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?= url('modules/migration/migration-bridge-pro/assets/css/migration-bridge-pro.css') ?>">
+<div class="mbp-wrap"><div class="mbp-card"><h1>Yükleme Sonucu</h1><?php if($error): ?><div class="mbp-alert error"><?= htmlspecialchars($error) ?></div><?php else: ?><div class="mbp-alert ok">Dosya okundu. Bulunan SQL/GZ dosyaları:</div><ul><?php foreach($files as $f): ?><li><?= htmlspecialchars($f) ?></li><?php endforeach; ?></ul><?php endif; ?></div></div>

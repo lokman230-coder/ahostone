@@ -1,0 +1,46 @@
+{
+  "slug": "builder",
+  "name": "Builder Suite",
+  "type": "builder",
+  "version": "2.0.0",
+  "description": "MobileBuilder ve SiteBuilder iceren kapsamli builder sistemi",
+  "author": "Ahost One",
+  "category": "builder",
+  "icon": "fa-tools",
+  "price": 0,
+  "features": [
+    "MobileBuilder Pro - APK/AAB/PWA Export",
+    "SiteBuilder Pro - Surukle birak site olusturucu",
+    "8 Mobil SAbelon (Emlak, Restoran, Radyo, Kurumsal vb.)",
+    "12 Web SAbelon (Hosting, Kurumsal, Radyo, Haber vb.)",
+    "16 Icerik Bloku",
+    "Header/Footer Builder",
+    "Menu Builder",
+    "Lisanslama Sistemi",
+    "ZIP Export",
+    "AI Icerik Yardimcisi"
+  ],
+  "sub_modules": [
+    {
+      "slug": "mobilebuilder",
+      "name": "MobileBuilder Pro",
+      "route": "admin/builder/mobile",
+      "user_route": "musteri/mobile-builder"
+    },
+    {
+      "slug": "sitebuilder",
+      "name": "SiteBuilder Pro",
+      "route": "admin/builder/site",
+      "user_route": "musteri/site-builder"
+    }
+  ],
+  "admin_menu": {
+    "title": "Builder",
+    "route": "admin/builder"
+  },
+  "settings": [
+    {"key": "builder_enabled", "label": "Builder Aktif", "type": "checkbox", "default": "1"},
+    {"key": "ai_enabled", "label": "AI Yardimcisi", "type": "checkbox", "default": "1"},
+    {"key": "default_license", "label": "Varsayilan Lisans", "type": "select", "options": {"single_domain": "Tek Domain", "open_source": "Acik Kaynak"}, "default": "single_domain"}
+  ]
+}

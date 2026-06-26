@@ -1,0 +1,12 @@
+{
+  "slug": "revenue-analytics",
+  "name": "Revenue Analytics",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Gelir grafikleri, KPI dashboard",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Gelir Analizi",
+    "route": "admin/revenue-analytics"
+  }
+}

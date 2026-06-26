@@ -1,0 +1,11 @@
+{
+    "name": "SEO Analyzer Pro",
+    "slug": "seo-analyzer",
+    "version": "1.0.0",
+    "description": "Kapsamli SEO analiz araclari",
+    "author": "Ahost One",
+    "category": "marketing",
+    "icon": "fa-search",
+    "price": 0,
+    "features": ["Site SEO analizi", "Anahtar kelime arastirmasi", "Rakip analizi"]
+}

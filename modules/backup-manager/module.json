@@ -1,0 +1,10 @@
+{
+  "slug": "backup-manager",
+  "name": "Yedekleme Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Otomatik yedekleme, restore ve veri kurtarma.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": { "title": "Yedeklemeler", "route": "admin/backup-manager" }
+}

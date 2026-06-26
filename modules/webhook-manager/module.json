@@ -1,0 +1,12 @@
+{
+  "slug": "webhook-manager",
+  "name": "Webhook Manager",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "API webhook'ları yönetimi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Webhook'lar",
+    "route": "admin/webhook-manager"
+  }
+}

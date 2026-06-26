@@ -1,0 +1,12 @@
+{
+  "slug": "git-deployment",
+  "name": "Git Deployment",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Git repo'dan otomatik deploy",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Git Deploy",
+    "route": "admin/git-deployment"
+  }
+}

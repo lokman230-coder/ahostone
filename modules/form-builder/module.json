@@ -1,0 +1,12 @@
+{
+  "slug": "form-builder",
+  "name": "Form Builder",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Sürükle-bırak form oluşturucu",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Form Oluşturucu",
+    "route": "admin/form-builder"
+  }
+}

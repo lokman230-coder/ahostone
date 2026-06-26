@@ -1,0 +1,20 @@
+{
+  "name": "OpenAI AI Provider",
+  "slug": "openai",
+  "type": "ai",
+  "version": "1.0.0",
+  "description": "AI yardım, içerik, site/mobil tasarım ve analiz servis sağlayıcı modülü.",
+  "admin_menu": {
+    "title": "OpenAI",
+    "route": "admin/ai-center"
+  },
+  "requires": [
+    "ai_core"
+  ],
+  "settings": [
+    {"key":"api_key","label":"OpenAI API Key","type":"password","secret":true},
+    {"key":"model","label":"Varsayılan Model","type":"text","default":"gpt-4.1-mini"},
+    {"key":"base_url","label":"API Base URL","type":"text","default":"https://api.openai.com/v1"},
+    {"key":"timeout","label":"İstek Zaman Aşımı (sn)","type":"text","default":"60"}
+  ]
+}

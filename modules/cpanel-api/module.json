@@ -1,0 +1,12 @@
+{
+  "slug": "cpanel-api",
+  "name": "cPanel/WHM API",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Otomatik hosting provisioning",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "cPanel API",
+    "route": "admin/cpanel-api"
+  }
+}

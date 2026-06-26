@@ -1,0 +1,20 @@
+{
+  "slug": "currency-translation-pro",
+  "name": "Kur & Çeviri Merkezi Pro",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "TCMB kur, yönetici marjı, ürün çeviri belleği ve tarayıcı dili modülü.",
+  "settings": {
+    "enabled_help": {
+      "label": "Yardım Kılavuzu Aktif",
+      "type": "checkbox",
+      "default": "1"
+    },
+    "api_key": {
+      "label": "API Key / Token",
+      "type": "password",
+      "secret": true,
+      "default": ""
+    }
+  }
+}

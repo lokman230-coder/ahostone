@@ -1,0 +1,35 @@
+{
+  "slug": "paystack",
+  "name": "Paystack Ödeme Geçidi",
+  "type": "payment",
+  "version": "1.0.0",
+  "description": "Paystack Afrika'nın lider ödeme altyapısı. Nijerya, Ghana, Güney Afrika ve 33+ Afrika ülkesinde ödeme.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "Paystack",
+    "route": "admin/payment/paystack"
+  },
+  "settings": {
+    "public_key": {
+      "label": "Public Key",
+      "type": "text",
+      "required": true
+    },
+    "secret_key": {
+      "label": "Secret Key",
+      "type": "text",
+      "required": true
+    },
+    "merchant_email": {
+      "label": "Merchant Email",
+      "type": "text",
+      "required": true
+    },
+    "test_mode": {
+      "label": "Test Modu",
+      "type": "checkbox",
+      "default": "1"
+    }
+  }
+}

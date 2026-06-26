@@ -1,0 +1,46 @@
+{
+  "slug": "e-invoice",
+  "name": "E-Fatura & Proforma",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Türkiye uyumlu e-fatura, proforma fatura ve makbuz sistemi.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": {
+    "title": "E-Fatura",
+    "route": "admin/e-invoice"
+  },
+  "settings": {
+    "company_name": {
+      "label": "Firma Adı",
+      "type": "text",
+      "required": true
+    },
+    "tax_number": {
+      "label": "Vergi Numarası",
+      "type": "text",
+      "required": true
+    },
+    "tax_office": {
+      "label": "Vergi Dairesi",
+      "type": "text"
+    },
+    "address": {
+      "label": "Adres",
+      "type": "textarea"
+    },
+    "phone": {
+      "label": "Telefon",
+      "type": "text"
+    },
+    "email": {
+      "label": "E-posta",
+      "type": "text"
+    },
+    "invoice_prefix": {
+      "label": "Fatura Ön Ek",
+      "type": "text",
+      "default": "INV"
+    }
+  }
+}

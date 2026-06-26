@@ -1,0 +1,24 @@
+/* Ahost One v25 RC10 - Premium SaaS Design Tokens */
+:root{
+  --ao-font-sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --ao-bg:#f5f7fb; --ao-bg-soft:#f8fafc; --ao-surface:#ffffff; --ao-surface-2:#f9fbff;
+  --ao-surface-dark:#0f172a; --ao-surface-dark-2:#111c33;
+  --ao-text:#0f172a; --ao-text-soft:#334155; --ao-muted:#64748b; --ao-muted-2:#94a3b8;
+  --ao-border:#e2e8f0; --ao-border-soft:#edf2f7;
+  --ao-primary:#2563eb; --ao-primary-2:#4f46e5; --ao-primary-soft:#eff6ff;
+  --ao-accent:#06b6d4; --ao-success:#16a34a; --ao-warning:#f59e0b; --ao-danger:#ef4444; --ao-info:#0284c7;
+  --ao-gradient:linear-gradient(135deg,#2563eb 0%,#4f46e5 46%,#06b6d4 100%);
+  --ao-gradient-soft:linear-gradient(135deg,rgba(37,99,235,.10),rgba(79,70,229,.08),rgba(6,182,212,.10));
+  --ao-shadow-xs:0 1px 2px rgba(15,23,42,.06);
+  --ao-shadow-sm:0 8px 22px rgba(15,23,42,.07);
+  --ao-shadow-md:0 14px 40px rgba(15,23,42,.10);
+  --ao-shadow-lg:0 28px 80px rgba(15,23,42,.16);
+  --ao-radius-xs:8px; --ao-radius-sm:12px; --ao-radius-md:16px; --ao-radius-lg:22px; --ao-radius-xl:30px;
+  --ao-space-1:4px; --ao-space-2:8px; --ao-space-3:12px; --ao-space-4:16px; --ao-space-5:20px; --ao-space-6:24px; --ao-space-8:32px; --ao-space-10:40px;
+  --ao-header-h:76px; --ao-sidebar-w:292px; --ao-container:1200px;
+}
+*{box-sizing:border-box}
+html{font-family:var(--ao-font-sans);text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+body{margin:0;color:var(--ao-text);background:var(--ao-bg);font-family:var(--ao-font-sans)}
+a{color:inherit} img{max-width:100%;height:auto}
+::selection{background:rgba(37,99,235,.18)}

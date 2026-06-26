@@ -1,0 +1,12 @@
+{
+  "slug": "domain-appraisal",
+  "name": "Domain Appraisal",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Domain değer tahmini",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Domain Değerleme",
+    "route": "admin/domain-appraisal"
+  }
+}

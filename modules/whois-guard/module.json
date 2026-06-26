@@ -1,0 +1,12 @@
+{
+  "slug": "whois-guard",
+  "name": "WHOIS Gizlilik",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Otomatik WHOIS gizlilik servisi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "WHOIS Koruma",
+    "route": "admin/whois-guard"
+  }
+}

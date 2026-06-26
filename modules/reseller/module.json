@@ -1,0 +1,10 @@
+{
+  "slug": "reseller",
+  "name": "Bayi / Reseller Sistemi",
+  "type": "system",
+  "version": "1.0.0",
+  "description": "Çoklu bayi sistemi. Alt kullanıcılar kendi müşterilerini yönetir.",
+  "author": "Ahost One",
+  "entry": "Module.php",
+  "admin_menu": { "title": "Bayiler", "route": "admin/reseller" }
+}

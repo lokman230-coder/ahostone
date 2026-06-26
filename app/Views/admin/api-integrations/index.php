@@ -1,0 +1,25 @@
+<?php
+$providers = [
+  'domain'=>['title'=>'Domain Registrarları','items'=>['domainnameapi'=>'DomainNameAPI','resellerclub'=>'ResellerClub','namecheap'=>'Namecheap']],
+  'server'=>['title'=>'Sunucular / Hosting Panelleri','items'=>['cpanel'=>'cPanel / WHM','directadmin'=>'DirectAdmin','plesk'=>'Plesk']],
+  'sms'=>['title'=>'SMS / WhatsApp','items'=>['netgsm'=>'NetGSM','iletimerkezi'=>'İleti Merkezi','whatsapp'=>'WhatsApp API']],
+  'ai'=>['title'=>'Yapay Zeka','items'=>['openai'=>'OpenAI Uyumlu','gemini'=>'Gemini','claude'=>'Claude','custom'=>'Özel Endpoint']],
+  'payment'=>['title'=>'Ödeme','items'=>['paytr'=>'PayTR','iyzico'=>'Iyzico','shopier'=>'Shopier','stripe'=>'Stripe']],
+  'mail'=>['title'=>'Mail / SMTP','items'=>['smtp'=>'SMTP','mailgun'=>'Mailgun','sendgrid'=>'Sendgrid']],
+  'other'=>['title'=>'Diğer APIler','items'=>['generic'=>'Generic API','webhook'=>'Webhook']]
+];
+$apis=[]; try{$apis=db()->query('SELECT * FROM api_integrations ORDER BY created_at DESC, id DESC')->fetchAll();}catch(Throwable $e){}
+?>
+<div class="ao-admin-page-head"><div><span>API Hub</span><h1>API Entegrasyon Merkezi</h1><p>Domain, sunucu, SMS, ödeme, SMTP ve yapay zeka API bağlantılarını tek merkezden yönetin.</p></div><a class="ao-btn" href="<?= url('admin/settings') ?>">Genel Ayarlar</a></div>
+<section class="ao-admin-card ao-tab-shell" data-ao-tabs>
+  <div class="ao-tabs"><?php $first=true; foreach($providers as $key=>$p): ?><button class="<?= $first?'active':'' ?>" data-tab-target="<?= e($key) ?>"><?= e($p['title']) ?></button><?php $first=false; endforeach; ?><button data-tab-target="logs">API Logları</button></div>
+  <?php $first=true; foreach($providers as $key=>$p): ?>
+  <div class="ao-tab-panel <?= $first?'active':'' ?>" data-tab-pane="<?= e($key) ?>">
+    <div class="ao-admin-grid two">
+      <section class="ao-admin-card flat"><h2><?= e($p['title']) ?> — Yeni Entegrasyon</h2><form class="ao-form" method="post" action="<?= url('admin/api-integrations/save') ?>"><?= csrf_field() ?><input type="hidden" name="category" value="<?= e($key) ?>"><div class="ao-form-grid"><label>Ad<input name="name" placeholder="<?= e(reset($p['items'])) ?> Production"></label><label>Provider<select name="provider"><?php foreach($p['items'] as $value=>$label): ?><option value="<?= e($value) ?>"><?= e($label) ?></option><?php endforeach; ?></select></label><?php if($key==='domain'): ?><label>Reseller ID<input name="username" placeholder="DomainNameAPI Reseller ID"></label><label>API Key<input type="password" name="secret" placeholder="Canlı API Key"></label><label>OTE / Test API Key <small>(opsiyonel)</small><input type="password" name="ote_key" placeholder="Zorunlu değil"></label><label>Endpoint<input name="endpoint" placeholder="https://api.domainresellerapi.com"></label><?php elseif($key==='server'): ?><label>Panel URL<input name="endpoint" placeholder="https://server:2087"></label><label>API User<input name="username"></label><label>API Token<input type="password" name="secret"></label><label>SSL Doğrulama<select name="verify_ssl"><option value="1">Aktif</option><option value="0">Pasif</option></select></label><?php elseif($key==='mail'): ?><label>SMTP Host<input name="endpoint" placeholder="smtp.domain.com"></label><label>Kullanıcı<input name="username"></label><label>Şifre/API Token<input type="password" name="secret"></label><label>Port<input name="port" placeholder="587"></label><?php else: ?><label>Endpoint / Base URL<input name="endpoint"></label><label>API Key / Kullanıcı<input name="username"></label><label>Secret / Token<input type="password" name="secret"></label><label>Ek Ayar<input name="extra" placeholder="Provider özel alanı"></label><?php endif; ?><label>Durum<select name="status"><option value="active">Aktif</option><option value="inactive">Pasif</option></select></label><label>Test Modu<select name="test_mode"><option value="1">Açık</option><option value="0">Kapalı</option></select></label></div><button class="ao-btn">Kaydet</button></form></section>
+      <section class="ao-admin-card flat"><h2>Kayıtlı <?= e($p['title']) ?></h2><table class="ao-table"><thead><tr><th>Ad</th><th>Provider</th><th>Durum</th><th>İşlem</th></tr></thead><tbody><?php $shown=false; foreach($apis as $a): if(!array_key_exists($a['provider'] ?? '',$p['items'])) continue; $shown=true; ?><tr><td><?= e($a['name']) ?><br><small><?= e($a['endpoint'] ?? '') ?></small></td><td><?= e($p['items'][$a['provider']] ?? $a['provider']) ?></td><td><span class="ao-badge"><?= e($a['status'] ?? 'active') ?></span></td><td><a class="ao-mini-btn" href="<?= url('admin/api-integrations/test?id='.(int)$a['id']) ?>">Test Et</a></td></tr><?php endforeach; if(!$shown): ?><tr><td colspan="4"><div class="ao-empty-premium">Kayıtlı entegrasyon yok.</div></td></tr><?php endif; ?></tbody></table></section>
+    </div>
+  </div>
+  <?php $first=false; endforeach; ?>
+  <div class="ao-tab-panel" data-tab-pane="logs"><div class="ao-empty-premium">API logları burada listelenecek.</div></div>
+</section>

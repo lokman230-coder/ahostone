@@ -1,0 +1,12 @@
+{
+  "slug": "customer-insights",
+  "name": "Customer Insights",
+  "type": "extension",
+  "version": "1.0.0",
+  "description": "Müşteri davranış analizi",
+  "author": "Ahost One",
+  "admin_menu": {
+    "title": "Müşteri Analizi",
+    "route": "admin/customer-insights"
+  }
+}

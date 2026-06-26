@@ -1,0 +1,42 @@
+{
+  "slug": "plugin-marketplace",
+  "name": "Plugin Marketplace Pro",
+  "type": "extension",
+  "version": "2.0.0",
+  "description": "Ücretli modül/tümleşik satışı - ZIP yükleme, lisans doğrulama, güncelleme ve komisyon sistemi",
+  "author": "Ahost One",
+  "category": "commerce",
+  "icon": "fa-plug",
+  "price": 0,
+  "features": [
+    "ZIP Yükleme Sistemi",
+    "Lisans Doğrulama",
+    "Güncelleme Sistemi",
+    "%15 Komisyon Kesme",
+    "Satıcı Kazanç Takibi",
+    "Tek Domain Lisansı",
+    "Açık Kaynak Kod Lisansı",
+    "Paket Sistemi (Paket 1, Paket 2)"
+  ],
+  "license_types": [
+    {"id": "single_domain", "name": "Tek Domain Lisansı", "description": "Bir domain için", "price_factor": 1},
+    {"id": "open_source", "name": "Açık Kaynak Kod", "description": "Sınırsız kullanım", "price_factor": 2.5}
+  ],
+  "packages": [
+    {"id": "basic", "name": "Paket 1 - Temel", "description": "Temel özellikler", "price_multiplier": 1},
+    {"id": "pro", "name": "Paket 2 - Profesyonel", "description": "Tüm özellikler", "price_multiplier": 2}
+  ],
+  "admin_menu": {
+    "title": "Eklenti Marketplace",
+    "route": "admin/plugin-marketplace"
+  },
+  "user_menu": {
+    "title": "Eklenti Marketplace",
+    "route": "musteri/plugin-marketplace"
+  },
+  "settings": [
+    {"key": "commission_rate", "label": "Komisyon Oranı (%)", "type": "number", "default": "15"},
+    {"key": "require_approval", "label": "Onay Zorunlu", "type": "checkbox", "default": "1"},
+    {"key": "max_file_size", "label": "Maks Dosya (MB)", "type": "number", "default": "100"}
+  ]
+}
